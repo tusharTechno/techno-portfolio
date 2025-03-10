@@ -10,7 +10,7 @@ const StickyCards = ({ data, index }) => {
       ${data.position}
       ${data.rotate}
       odd:rotate-1 even:-rotate-1
-      mx-auto w-[45rem] 
+      mx-auto w-full md:w-[45rem] 
       bg-zinc-900 rounded-lg 
       border border-zinc-200/10 
       overflow-hidden
