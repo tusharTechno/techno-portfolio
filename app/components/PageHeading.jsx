@@ -11,7 +11,7 @@ const PageHeading = ({ text, colorText }) => {
         ease: [0.87, 0, 0.13, 1],
         staggerChildren: 0.5,
       }}
-      className="text-3xl text-center md:text-6xl font-bold mt-5"
+      className="text-3xl w-[90%] mx-auto md:w-full text-center md:text-6xl font-bold mt-5"
     >
       {text}
       <span className="text-gradient"> {colorText}</span>

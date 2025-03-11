@@ -6,7 +6,7 @@ const StickyCards = ({ data, index }) => {
   return (
     <div
       className={`
-      sticky z-[${index + 1}] 
+      sticky 
       ${data.position}
       ${data.rotate}
       odd:rotate-1 even:-rotate-1
@@ -15,7 +15,7 @@ const StickyCards = ({ data, index }) => {
       border border-zinc-200/10 
       overflow-hidden
     `}
-      style={{ top: `${index + 2 + "0"}px` }}
+      style={{ top: `${index + 2 + "0"}px`, zIndex: `${index + 1}` }}
     >
       <MacHeader text={data.title} link={data.link} />
       <div className="grid items-center bg-zinc-900 py-5 px-5">

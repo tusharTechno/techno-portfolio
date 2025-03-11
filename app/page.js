@@ -64,7 +64,7 @@ const HomePage = () => {
         <div className="flex flex-col md:flex-row items-center w-[90%] gap-10 mx-auto">
           <div className="w-full md:w-1/2 relative">
             <span className="animate-bounce bg-purple-300/20 capitalize py-1 ml-10 mb-3 px-2 rounded-sm inline-block text-sm border-[1px] border-purple-500/20 text-purple-500">
-              Ui Magic
+              Database
             </span>
             <motion.h1
               initial={{ y: 20, opacity: 0 }}

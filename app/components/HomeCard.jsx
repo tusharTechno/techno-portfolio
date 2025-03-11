@@ -19,7 +19,7 @@ const HomeCard = () => {
       description: ` When you land on a sample web page or open an email template and see
                 content beginning with lorem ipsum, the page creator placed that
                 apparent gibberish there on purpose.`,
-      tech: ["react", "angular", "vue"],
+      tech: ["Webflow","ThreeJs"],
     },
     {
       title: "Estatemate",
@@ -55,7 +55,7 @@ const HomeCard = () => {
       description: ` When you land on a sample web page or open an email template and see
                 content beginning with lorem ipsum, the page creator placed that
                 apparent gibberish there on purpose.`,
-      tech: ["react", "angular", "vue"],
+      tech: ["Laravel"],
     },
     {
       title: "Patient",
@@ -73,7 +73,7 @@ const HomeCard = () => {
       description: ` When you land on a sample web page or open an email template and see
                 content beginning with lorem ipsum, the page creator placed that
                 apparent gibberish there on purpose.`,
-      tech: ["react", "angular", "vue"],
+      tech: ["Laravel"],
     },
     {
       title: "Rapid Clean",
@@ -91,7 +91,7 @@ const HomeCard = () => {
       description: ` When you land on a sample web page or open an email template and see
                 content beginning with lorem ipsum, the page creator placed that
                 apparent gibberish there on purpose.`,
-      tech: ["NextJs"],
+      tech: ["Laravel"],
     },
     {
       title: "Unibuddy",

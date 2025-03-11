@@ -2,7 +2,7 @@ import React from "react";
 
 const MacHeader = ({ text, link }) => {
   return (
-    <div className="flex shrink-0 items-center gap-1.5 px-3 py-2 bg-zinc-950">
+    <div className="relative z-[3] flex shrink-0 items-center gap-1.5 px-3 py-2 bg-zinc-950">
       <span className={`size-2 rounded-full inline-block bg-red-600`}></span>
       <span className={`size-2 rounded-full inline-block bg-yellow-600`}></span>
       <span className={`size-2 rounded-full inline-block bg-green-600`}></span>

@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+:root{
+  --card-gradient:180deg, rgba(190,188,188,0) 0%, rgba(4,4,4,0.7147233893557423) 76%;
+}
+
 @layer utilities {
   @keyframes bounceCustom {
     0%, 100% {
