@@ -64,26 +64,38 @@ const ProjectMenu = () => {
   
 
   useEffect(() => {
-    if (menuItemsRef.current[activeTech]) {
+    if (menuItemsRef.current[activeTech] && menuRef.current) {
       const activeElement = menuItemsRef.current[activeTech];
+      const menuContainer = menuRef.current;
   
-      activeElement.scrollIntoView({
-        behavior: "smooth",
-        block: "nearest",
-        inline: activeTech === technologies[0].workheading ? "start" : "center",
-      });
+      const elementRect = activeElement.getBoundingClientRect();
+      const containerRect = menuContainer.getBoundingClientRect();
+  
+      if (
+        elementRect.left < containerRect.left ||
+        elementRect.right > containerRect.right
+      ) {
+        menuContainer.scrollTo({
+          left:
+            activeElement.offsetLeft -
+            menuContainer.offsetWidth / 2 +
+            activeElement.offsetWidth / 2,
+          behavior: "smooth",
+        });
+      }
     }
   }, [activeTech]);
   
+  
 
   return (
-    <div className="w-full mt-20">
+    <div className="w-full mt-20 scroll-smooth">
       <PageHeading text="Showcasing Our" colorText="Excellence" />
 
       <div className="sticky z-30 top-0 w-full mt-20 h-13 flex bg-zinc-800 mb-5">
         <button
           onClick={scrollLeft}
-          className="md:hidden w-10 cursor-pointer h-full shrink-0 bg-zinc-700 px-2"
+          className="lg:hidden w-10 cursor-pointer h-full shrink-0 bg-zinc-700 px-2"
         >
           <i className="ri-arrow-left-line text-white"></i>
         </button>
@@ -98,7 +110,7 @@ const ProjectMenu = () => {
               ref={(el) => (menuItemsRef.current[tech.workheading] = el)}
               className={`cursor-pointer text-sm px-4 py-2 shrink-0 rounded-md duration-200 ${
                 activeTech === tech.workheading
-                  ? "bg-blue-500 text-white"
+                  ? "bg-indigo-500 text-white"
                   : "bg-zinc-700 text-white"
               }`}
               onClick={() => scrollToSection(tech.workheading)}
@@ -110,7 +122,7 @@ const ProjectMenu = () => {
 
         <button
           onClick={scrollRight}
-          className="md:hidden w-10 cursor-pointer h-full shrink-0 bg-zinc-700 p-2"
+          className="lg:hidden w-10 cursor-pointer h-full shrink-0 bg-zinc-700 p-2"
         >
           <i className="ri-arrow-right-line text-white"></i>
         </button>
@@ -127,10 +139,10 @@ const ProjectMenu = () => {
               index === 0 ? "translate-y-0 pb-10" : "-translate-y-5 pb-10"
             }`}
           >
-            <h2 className="text-left text-2xl font-bold text-white">
+            <h2 className="text-center md:text-left text-3xl font-bold text-white">
               {tech.workheading}
             </h2>
-            <div className="gap-5 grid md:grid-cols-2 mt-5">
+            <div className="gap-5 grid md:grid-cols-2 mt-6">
               {tech.projects.map((project, index) => (
                 <div key={project.projectname} className="group relative w-full bg-zinc-900 border-[1px] border-zinc-800 rounded-lg overflow-hidden">
                   <MacHeader text={project.projectname} link={project.projecturl}/>

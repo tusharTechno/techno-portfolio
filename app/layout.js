@@ -15,6 +15,17 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
+      <head>
+        <title>The Art of Digital Development</title>
+        <meta
+          name="description"
+          content="Engineering sophisticated, high-performance web solutions for the modern digital world."
+        />
+        <meta
+          name="keywords"
+          content="web development, digital solutions, high-performance websites, scalable applications, modern web technology, innovative web design, software development, full-stack development"
+        />
+      </head>
       <body>
         <Navbar />
         {children}

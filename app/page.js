@@ -2,62 +2,16 @@
 import dynamic from "next/dynamic";
 import React, { useEffect } from "react";
 import SectionHeading from "./components/SectionHeading";
-import Card from "./components/Card";
 import Image from "next/image";
 import { motion } from "motion/react";
 import MacHeader from "./components/MacHeader";
 import HomeCard from "./components/HomeCard";
+import Cards from "./components/Cards/Cards";
 const CodeEditor = dynamic(() => import("./components/CodeEditor"), {
   ssr: false,
 });
 
 const HomePage = () => {
-
-  const devskills = [
-    {
-      title: "CMS",
-      skills: [
-        "WordPress",
-        "WooCommerce",
-        "Squarespace",
-        "Shopify",
-        "Webflow",
-        "Flynax",
-        "Wix",
-        "Processwire",
-      ],
-    },
-    {
-      title: "Front-End Development",
-      skills: [
-        "ReactJS",
-        "NextJS",
-        "JavaScript",
-        "TypeScript",
-        "CSS3",
-        "Tailwind CSS",
-        "Bootstrap",
-        "JavaScript frameworks",
-      ],
-    },
-    {
-      title: "Database Excellence",
-      skills: ["MySQL", "PostgreSQL", "MongoDB", "Firebase"],
-    },
-    {
-      title: "API Creation/Implementation",
-      skills: ["GraphQL", "RestAPI", "ChatGPT API", "Wized"],
-    },
-    {
-      title: "Back-End Development",
-      skills: ["Laravel", "CodeIgniter", "NextJS", "NodeJS"],
-    },
-    {
-      title: "Other Technologies",
-      skills: ["Git", "GitHub", "Bitbucket", "AWS", "Azure", "Google Cloud"],
-    },
-  ];
-
   return (
     <main className="w-full">
       <section className="hero bg-zinc-800 w-full py-10 ">
@@ -108,11 +62,7 @@ const HomePage = () => {
 
       <section className="w-full mt-15 md:mt-24">
         <SectionHeading text="Technical" colorText="Expertise" />
-        <div className="grid md:grid-cols-3 gap-5 w-[90%] mx-auto mt-5">
-          {devskills.map((data, index) => (
-            <Card key={data.title} data={data} />
-          ))}
-        </div>
+        <Cards />
       </section>
 
       <section className="mt-5 md:mt-28">
@@ -120,19 +70,23 @@ const HomePage = () => {
           <div className="w-full md:w-1/2 pr-1">
             <SectionHeading
               align="text-left"
-              text="Driven by Innovation, Defined"
-              colorText="by Excellence"
+              text="Innovating the Web, One "
+              colorText="Solution at a Time"
             />
             <p className="text-sm md:text-base mt-3">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including.
+              Transforming ideas into enticing digital applications through
+              fully integrated, high-performance web solutions. Each and every
+              project is defined by the specifications of work that ensure its
+              effective, scalable, and user-oriented features which ultimately
+              drive success into the business. With a solid base in modern
+              development practices, the expert fulfills the requirements of
+              digital age and its custom solutions completely through
+              deliverables in many industries. Focus on all development
+              processes is, however, maximized performance, security, and
+              advanced technology. And whether from flair online hubs or
+              enterprise solutions, future-proofing is all about creating
+              applications that not only pass the industry's benchmarks but also
+              downplay the bar of excellence.
             </p>
           </div>
           <div className="w-full md:w-1/2 h-96">
@@ -177,7 +131,7 @@ const HomePage = () => {
                   placeholder="Your Message"
                   className="w-full min-h-20 max-h-30 outline-none rounded-lg py-1 px-2 bg-zinc-800 border-[1px] border-zinc-700"
                 ></textarea>
-                <button className="bg-blue-500 py-2 font-semibold rounded-lg mt-3">
+                <button className="bg-indigo-500 cursor-pointer py-2 font-semibold rounded-lg mt-3">
                   Send Message
                 </button>
               </form>

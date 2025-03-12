@@ -10,7 +10,7 @@ const MacHeader = ({ text, link }) => {
         <p className="text-base text-zinc-300 md:ml-5 ml-1">{text}.js</p>
         {link && (
           <a target="_blank" href={link}>
-            <i className="ri-external-link-line text-xl"></i>
+            <i className="ri-external-link-line text-xl hover:text-blue-500 duration-300"></i>
           </a>
         )}
       </div>
