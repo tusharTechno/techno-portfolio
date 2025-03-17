@@ -11,6 +11,7 @@ import StatsSection from "./components/StatsSection";
 import { ToastContainer } from "react-toastify";
 import { handleContactForm } from "./form";
 import LoadingSpinner from "./components/LoadingSpinner";
+import ReCAPTCHA from "react-google-recaptcha";
 const CodeEditor = dynamic(() => import("./components/CodeEditor"), {
   ssr: false,
 });
@@ -18,6 +19,7 @@ const CodeEditor = dynamic(() => import("./components/CodeEditor"), {
 const HomePage = () => {
   const [isSending, setSending] = useState(false);
   const formRef = useRef(null);
+  const recaptchaRef = useRef(null);
 
   const handleScroll = () => {
     formRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -147,7 +149,7 @@ const HomePage = () => {
             >
               <form
                 className="w-full grid gap-3"
-                onSubmit={(e) => handleContactForm(e, setSending)}
+                onSubmit={(e) => handleContactForm(e, setSending, recaptchaRef)}
               >
                 <input
                   type="text"
@@ -178,6 +180,12 @@ const HomePage = () => {
                   placeholder="Your Message"
                   className="w-full min-h-20 max-h-30 outline-none rounded-lg py-1 px-2 bg-zinc-800 border-[1px] border-zinc-700"
                 ></textarea>
+
+                <ReCAPTCHA
+                  sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+                  ref={recaptchaRef}
+                />
+
                 <button
                   disabled={isSending}
                   className="bg-indigo-500 disabled:bg-indigo-400 cursor-pointer py-2 font-semibold rounded-lg mt-3"

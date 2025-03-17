@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 let lastSubmittedTime = 0;
 const RATE_LIMIT = 60000;
 
-export const handleContactForm = (e, setSending) => {
+export const handleContactForm = async (e, setSending, recaptchaRef) => {
   e.preventDefault();
 
   const currentTime = Date.now();
@@ -22,16 +22,17 @@ export const handleContactForm = (e, setSending) => {
     return toast.error("All fields are required");
   }
 
-  const emailData = {
-    name: name,
-    email: email,
-    subject: subject,
-    phone: phone,
-    message: message,
-  };
+  // Verify reCAPTCHA
+  const recaptchaToken = recaptchaRef.current.getValue();
+  if (!recaptchaToken) {
+    return toast.error("Please complete the reCAPTCHA verification");
+  }
+
+  const emailData = { name, email, subject, phone, message, "g-recaptcha-response": recaptchaToken };
 
   lastSubmittedTime = currentTime;
   setSending(true);
+
   emailjs
     .send(
       process.env.NEXT_PUBLIC_EMAILJS_SERVICE_KEY,
@@ -44,6 +45,7 @@ export const handleContactForm = (e, setSending) => {
       console.log("Email sent successfully!", response.status, response.text);
       setSending(false);
       e.target.reset();
+      recaptchaRef.current.reset(); // Reset reCAPTCHA
       lastSubmittedTime = 0;
     })
     .catch((error) => {
