@@ -105,7 +105,7 @@ const ProjectMenu = () => {
           className="project-menu overflow-x-scroll whitespace-nowrap z-20 w-full flex items-center md:justify-center px-5 gap-5 md:gap-8 scrollbar-hide"
         >
           {technologies.map((tech, index) => (
-            <p
+            <button
               key={index}
               ref={(el) => (menuItemsRef.current[tech.workheading] = el)}
               className={`cursor-pointer text-sm px-4 py-2 shrink-0 rounded-md duration-200 ${
@@ -116,7 +116,7 @@ const ProjectMenu = () => {
               onClick={() => scrollToSection(tech.workheading)}
             >
               {tech.workheading}
-            </p>
+            </button>
           ))}
         </div>
 

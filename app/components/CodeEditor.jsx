@@ -17,8 +17,8 @@ const CodeEditor = () => {
       return (
         this.hardWorker &&
         this.quickLearner &&
-        this.skills.length >= 3 &&
-        this.yearsOfExperience >= 3
+        this.skills.length >= 2 &&
+        this.yearsOfExperience >= 10
       );
     },
   };`;

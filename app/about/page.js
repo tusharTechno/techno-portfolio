@@ -7,52 +7,50 @@ const page = () => {
       <PageHeading text="The Story Behind" colorText="the Code" />
       <section className="w-[90%] mx-auto mt-10">
         <h3 className="text-lg md:text-2xl font-bold mt-5">
-          Full-Stack Development Knowledge
+          Full-Stack Development Expertise
         </h3>
         <p className="text-sm md:text-base mt-3">
-          Having some 10 years of tailor-made exposure in Designing Dynamic and
-          Lively Websites, Full Stack Development has carved a long, deep expert
-          and a celebrated niche by it. It is complete for client-side and
-          server-side development technologies: React, NextJS, Laravel,
-          CodeIgniter, and NodeJS. He merrily mashes the digital lifestyle along
-          with high proficiency in UI designing with Tailwind, Bootstrap, and
-          other JavaScript frameworks, then on a server-side solution scales and
-          optimizes using high-end databases, tuning performance with MySQL,
-          PostgreSQL, MongoDB, and Firebase.
+          With <span className="font-bold">6 years of hands-on experience</span> in designing and developing
+          dynamic, high-performance web applications, I have honed my skills as
+          a <span className="font-bold">Full-Stack Developer</span>. My expertise spans both <span className="font-bold">client-side and
+          server-side</span> technologies, including <span className="font-bold">React, Next.js, Laravel,
+          CodeIgniter, and Node.js</span>.
+        </p>
+        <p className="text-sm md:text-base mt-3">
+        From crafting seamless UI/UX experiences using <span className="font-bold">Tailwind, Bootstrap, and modern JavaScript frameworks</span>, to building <span className="font-bold">scalable backend solutions</span> with <span className="font-bold">MySQL, PostgreSQL, MongoDB, and Firebase</span>, I ensure that every project is optimized for <span className="font-bold">speed, security, and scalability</span>.
         </p>
       </section>
 
       <section className="w-[90%] mx-auto mt-10">
         <h3 className="text-lg md:text-2xl font-bold mt-5">
-          Customized Solution Over Multiple Platforms
+          Custom Solutions Across Multiple Platforms
         </h3>
         <p className="text-sm md:text-base mt-3">
-          With maximum best exposure on CMS platforms with WordPress, Shopify,
-          Webflow, and Squarespace, he brings valuable custom web solutions all
-          around business needs. His understanding of API development, cloud
-          services, and versioning systems such as Git and Bitbucket ensures
-          that modern feat is mastered with top-notch performance so that every
-          project endeavors to implement these factors. Custom eCommerce
-          platforms, SaaS solutions, or subscription-based services have been
-          developed using standards by Pankaj to ensure user experience
-          optimization and the highest specification.
+          My versatility extends to CMS platforms like <span className="font-bold">WordPress, Shopify,
+          Webflow, and Squarespace</span>, where I build tailored solutions that align
+          with business needs. With deep knowledge of <span className="font-bold">API development, cloud
+          services, and version control systems (Git, Bitbucket)</span>, I ensure that
+          every project is built with <span className="font-bold">modern standards and peak performance</span> in
+          mind.
+        </p>
+        <p className="text-sm md:text-base mt-3">
+          Whether it’s custom eCommerce platforms, SaaS applications, or
+          subscription-based services, I focus on delivering user-centric,
+          future-proof solutions that elevate digital experiences.
         </p>
       </section>
       <section className="w-[90%] mx-auto mt-10">
         <h3 className="text-lg md:text-2xl font-bold mt-5">
-          Devoted to Novation and Excellence
+          Innovation & Excellence in Every Project
         </h3>
         <p className="text-sm md:text-base mt-3">
-          He has quite different project experiences, be it real estate portals
-          or fintech applications, AI software to e-marketplaces, and he becomes
-          really electrified when it comes to solving difficult problems through
-          innovations. This with a good eye for details, great problem-solving
-          ability knowledge about recent web technologies gives him the
-          advantage to convert the most difficult requirements into seamless
-          digital experiences. And that is precisely why he sees himself well
-          ahead of the modern trends, crossing traditional expectations, and
-          making a great name for himself in the tech realm as an innovative and
-          trustworthy developer.
+          Over the years, I have worked on diverse projects, from <span className="font-bold">real estate
+          portals and fintech applications to AI-driven software and
+          e-marketplaces</span>. I thrive on solving complex challenges through
+          <span className="font-bold">cutting-edge technologies and creative problem-solving</span>.
+        </p>
+        <p className="text-sm md:text-base mt-3">
+        With a keen eye for detail and a passion for innovation, I stay ahead of modern trends, pushing the boundaries of what’s possible in web development. My commitment to <span className="font-bold">excellence, adaptability, and reliability</span> ensures that every project I undertake not only meets industry benchmarks but <span className="font-bold">sets new standards in digital innovation</span>.
         </p>
       </section>
     </main>

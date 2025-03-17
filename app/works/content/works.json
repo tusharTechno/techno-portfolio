@@ -4,43 +4,43 @@
     "projects": [
       {
         "projectname": "GSIS",
-        "projectdescription": "When you land on a sample web page or open an email template and see content beginning with lorem ipsum, the page creator placed that apparent gibberish there on purpose.",
+        "projectdescription": "Global Security Innovative Strategies (GSIS) provides security solutions using its expertise in private sector security, homeland security, and international risk management.",
         "projecturl": "https://www.gsis.us/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "comwave",
-        "projectdescription": "When you land on a sample web page or open an email template and see content beginning with lorem ipsum, the page creator placed that apparent gibberish there on purpose.",
+        "projectname": "Comwave",
+        "projectdescription": "A leading telecom service provider offering high-speed internet, VoIP phone services, and business communication solutions.",
         "projecturl": "https://www.comwave.net/residential/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "lacaverne",
-        "projectdescription": "When you land on a sample web page or open an email template and see content beginning with lorem ipsum, the page creator placed that apparent gibberish there on purpose.",
+        "projectname": "Lacaverne",
+        "projectdescription": "An online marketplace offering a variety of consumer goods, including electronics, fashion, and home essentials.",
         "projecturl": "https://www.lacaverne.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "hugedomains",
-        "projectdescription": "When you land on a sample web page or open an email template and see content beginning with lorem ipsum, the page creator placed that apparent gibberish there on purpose.",
+        "projectname": "Hugedomains",
+        "projectdescription": "A domain marketplace where users can buy and sell premium domain names for businesses and personal use.",
         "projecturl": "https://www.hugedomains.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "jmsphotography",
-        "projectdescription": "When you land on a sample web page or open an email template and see content beginning with lorem ipsum, the page creator placed that apparent gibberish there on purpose.",
+        "projectname": "JMS-Photography",
+        "projectdescription": "A professional photography service specializing in wedding, portrait, and event photography with a creative touch.",
         "projecturl": "https://www.jmsphotography.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "rocketrubber",
-        "projectdescription": "When you land on a sample web page or open an email template and see content beginning with lorem ipsum, the page creator placed that apparent gibberish there on purpose.",
+        "projectname": "Rocket-Rubber",
+        "projectdescription": "A specialized e-commerce store selling rubber products such as seals, gaskets, and industrial components.",
         "projecturl": "https://rocketrubber.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "myrank",
-        "projectdescription": "When you land on a sample web page or open an email template and see content beginning with lorem ipsum, the page creator placed that apparent gibberish there on purpose.",
+        "projectname": "MyRank",
+        "projectdescription": "An online education platform offering test preparation materials, mock exams, and learning resources for competitive exams.",
         "projecturl": "https://myrank.co.in/",
         "projectimage": "/images/website-image.webp"
       }
@@ -50,62 +50,62 @@
     "workheading": "Laravel",
     "projects": [
       {
-        "projectname": "provideo-factory",
-        "projectdescription": "When you land on a sample web page or open an email template and see content beginning with lorem ipsum, the page creator placed that apparent gibberish there on purpose.",
+        "projectname": "ProVideo-Factory",
+        "projectdescription": "A professional video production company providing high-quality marketing, advertising, and corporate video solutions.",
         "projecturl": "https://provideofactory.com/",
-        "projectimage": "/images/websites/Provideofactory.png"
+        "projectimage": "/images/websites/provideofactory.webp"
       },
       {
-        "projectname": "king-realtygroup",
-        "projectdescription": "When you land on a sample web page or open an email template and see content beginning with lorem ipsum, the page creator placed that apparent gibberish there on purpose.",
+        "projectname": "King-Realty-Group",
+        "projectdescription": "A real estate agency specializing in buying, selling, and investing in residential and commercial properties.",
         "projecturl": "https://king-realtygroup.com/",
-        "projectimage": "/images/websites/King.png"
+        "projectimage": "/images/websites/king.webp"
       },
       {
-        "projectname": "storyblocks",
-        "projectdescription": "When you land on a sample web page or open an email template and see content beginning with lorem ipsum, the page creator placed that apparent gibberish there on purpose.",
+        "projectname": "Storyblocks",
+        "projectdescription": "A subscription-based platform offering royalty-free stock videos, images, and music for content creators.",
         "projecturl": "https://www.storyblocks.com/",
-        "projectimage": "/images/websites/Storyblocks.png"
+        "projectimage": "/images/websites/storyblocks.webp"
       },
       {
-        "projectname": "coliving",
-        "projectdescription": "When you land on a sample web page or open an email template and see content beginning with lorem ipsum, the page creator placed that apparent gibberish there on purpose.",
+        "projectname": "Coliving",
+        "projectdescription": "An innovative housing solution platform connecting users with co-living spaces across various cities.",
         "projecturl": "https://coliving.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "rentalagency",
-        "projectdescription": "When you land on a sample web page or open an email template and see content beginning with lorem ipsum, the page creator placed that apparent gibberish there on purpose.",
+        "projectname": "Rental-Agency",
+        "projectdescription": "A property rental agency offering comprehensive rental listings, tenant management tools, and landlord services.",
         "projecturl": "https://rentalagency.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "autofintech-portal",
-        "projectdescription": "When you land on a sample web page or open an email template and see content beginning with lorem ipsum, the page creator placed that apparent gibberish there on purpose.",
+        "projectname": "AutoFinTech-Portal",
+        "projectdescription": "A fintech platform facilitating automotive finance, loan applications, and digital banking solutions for vehicle buyers.",
         "projecturl": "https://portal.autofintech.co.uk/user/login",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "infiniguard-dev",
-        "projectdescription": "When you land on a sample web page or open an email template and see content beginning with lorem ipsum, the page creator placed that apparent gibberish there on purpose.",
+        "projectname": "Infiniguard-Dev",
+        "projectdescription": "A security and data management platform designed for enterprise-level data protection and real-time monitoring.",
         "projecturl": "https://dev.infiniguard.com/admin/login",
         "projectimage": "/images/website-image.webp"
       },
       {
         "projectname": "WhatApartment",
-        "projectdescription": "WhatApartment is a subscription-based service designed to streamline the rental property search in Barcelona and Madrid. ",
+        "projectdescription": "A subscription-based service that simplifies rental property searches in Barcelona and Madrid with curated listings.",
         "projecturl": "https://www.whatapartment.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "btn-beryl-dev",
-        "projectdescription": "The goal of this project is to process and store data from the Brighton bike share scheme. The feeds provide live information on the availability of bikes and docking stations within the Brighton and Hove area. The data will be stored in a database and used to track key performance indicators (KPIs) related to bay availability.",
+        "projectname": "Brighton-Bike-Share",
+        "projectdescription": "A data-driven platform processing live information on the availability of bikes and docking stations within the Brighton and Hove area.",
         "projecturl": "http://btn-beryl-dev.scb.bike/login",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "infiniguard-client",
-        "projectdescription": "When you land on a sample web page or open an email template and see content beginning with lorem ipsum, the page creator placed that apparent gibberish there on purpose.",
+        "projectname": "Infiniguard-Client",
+        "projectdescription": "A customer-facing portal for managing security services, monitoring data, and ensuring real-time protection.",
         "projecturl": "https://clientsdev.infiniguard.com/client/login",
         "projectimage": "/images/website-image.webp"
       }
@@ -121,20 +121,20 @@
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "go.motorlend",
-        "projectdescription": "When you land on a sample web page or open an email template and see content beginning with lorem ipsum, the page creator placed that apparent gibberish there on purpose.",
+        "projectname": "Go-Motorlend",
+        "projectdescription": "A digital lending platform providing seamless financing options for vehicle purchases, offering easy online applications and quick approvals.",
         "projecturl": "https://go.motorlend.co.uk/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "basecamper",
-        "projectdescription": "BaseCamper is your dedicated platform for buying, selling, and renting overlanding gear and equipment. Not ready to commit to the lifestyle? Rent an overland vehicle or adventure trailer for your next trip to discover what suits you best. Save time and money with rentals, and skip the hassle of social media groups by exploring our categorized listings tailored to overlanders. Whether you're selling your rig or searching for new and used gear, connect directly with the community. Easily filter items for local pickup or shipping to streamline your journey and spend more time exploring.",
+        "projectname": "BaseCamper",
+        "projectdescription": "A marketplace for buying, selling, and renting overlanding gear, vehicles, and adventure trailers, connecting outdoor enthusiasts with the right equipment.",
         "projecturl": "https://basecamper.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "zeaara",
-        "projectdescription": "When you land on a sample web page or open an email template and see content beginning with lorem ipsum, the page creator placed that apparent gibberish there on purpose.",
+        "projectname": "Zeaara",
+        "projectdescription": "An online marketplace offering unique and curated products across various categories, designed to provide a seamless shopping experience.",
         "projecturl": "https://www.zeaara.com/",
         "projectimage": "/images/website-image.webp"
       }
@@ -144,74 +144,74 @@
     "workheading": "Shopify",
     "projects": [
       {
-        "projectname": "dollar-shave-club",
-        "projectdescription": "Discover the ultimate spa experience at Skinology Face Bar, the leading salon in Toledo, Ohio. Indulge in luxurious treatments and rejuvenate your skin at one of the top spas in the Toledo area.",
+        "projectname": "Dollar Shave Club",
+        "projectdescription": "A subscription-based grooming brand offering high-quality razors, shaving essentials, and personal care products for men.",
         "projecturl": "https://us.dollarshaveclub.com/",
-        "projectimage": "/images/websites/Events.png"
+        "projectimage": "/images/websites/events.webp"
       },
       {
-        "projectname": "skinology-aesthetics",
-        "projectdescription": "Discover the ultimate spa experience at Skinology Face Bar, the leading salon in Toledo, Ohio. Indulge in luxurious treatments and rejuvenate your skin at one of the top spas in the Toledo area.",
+        "projectname": "Skinology-Aesthetics",
+        "projectdescription": "A premier skincare and beauty clinic providing luxury facial treatments and aesthetic services for rejuvenated skin.",
         "projecturl": "https://skinology-aesthetics.myshopify.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "intex",
-        "projectdescription": "Now Explore a wide range of Consumer Electronics, LED TV, Speakers, Smartwatches, Mobile Accessories, Computer Accessories, Home Appliances &amp; more at Intex India.",
+        "projectname": "Intex",
+        "projectdescription": "A leading electronics brand offering a wide range of consumer electronics, including LED TVs, smartwatches, and home appliances.",
         "projecturl": "https://www.intex.in/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "thefacehaus",
-        "projectdescription": "A brand new concept “facial bar” that is revolutionizing skin care. Face Haus offers high quality and affordable skincare “for the people.” High-end skincare lines and highly trained estheticians. Book your appointment online in Dallas, New York and California or shop our products in our online store.",
+        "projectname": "The-Face-Haus",
+        "projectdescription": "A modern facial bar providing high-quality skincare services and professional facial treatments in a relaxed environment.",
         "projecturl": "https://thefacehaus.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "sjal-skin-care",
-        "projectdescription": "Complimentary gift with purchase · Free Shipping · Discover the allure of over 17 years of artisanal, bio-active, effective, gemstone-infused anti-aging skincare. Brighten, even, firm, and soothe the complexion with själ hydration crèmes, exfoliators, brightening masks, eye crème, face oil, serum, cleanser and tonic.",
+        "projectname": "Själ-Skincare",
+        "projectdescription": "A luxury skincare brand specializing in gemstone-infused anti-aging products designed to brighten, firm, and hydrate the skin.",
         "projecturl": "https://sjalskincare.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "clk-supplies",
-        "projectdescription": "CLK Supplies provides key blanks, locksmith supplies, and locksmith tools for commercial locksmiths, businesses, and individuals. Get free shipping on US orders",
+        "projectname": "CLK-Supplies",
+        "projectdescription": "An online store providing high-quality locksmith tools, key blanks, and security supplies for commercial and individual use.",
         "projecturl": "https://www.clksupplies.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
         "projectname": "ZÓ",
-        "projectdescription": "ZÓ personalises exquisite glassware with initials in an elegant and minimalistic way. Give the perfect gift, take your corporate event to a new level, or show all your wedding guests how important they are by offering monogrammed glassware",
+        "projectdescription": "A luxury glassware brand offering personalized, monogrammed glassware for gifting, corporate events, and special occasions.",
         "projecturl": "https://zopersonalised.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "atlasbars",
-        "projectdescription": "With 20g protein and 1g sugar, Atlas Bars have everything you need to keep going. We aren’t trying to sell you all of your hopes and dreams in a protein bar. We just believe that chasing your dreams requires hard work and hard work requires fuel. That’s where we come in.",
+        "projectname": "Atlas-Bars",
+        "projectdescription": "A nutrition-focused brand offering protein bars with clean ingredients, high protein, and low sugar to fuel active lifestyles.",
         "projecturl": "https://atlasbars.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "trulabs",
-        "projectdescription": "TruLabs Hydrate, Energy + Focus, Pre-workout, and Sleep are non-GMO drink mixes that taste great and contain zero sugar. No dairy, fillers, gluten, GMOs, and soy, and Made in the USA with globally sourced ingredients. Convenient on-the-go sticks.",
+        "projectname": "TruLabs",
+        "projectdescription": "A health and fitness brand offering high-quality energy drinks, hydration mixes, and pre-workout supplements for performance enhancement.",
         "projecturl": "https://trulabs.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "ameandlulu",
-        "projectdescription": "Ame & Lulu makes accessories for an active lifestyle - tennis &amp; golf accessories, totes, travel, beauty and more! Score free US shipping on orders over $100!",
+        "projectname": "Ame-&-Lulu",
+        "projectdescription": "A fashion brand offering stylish and functional accessories for active lifestyles, including tennis and golf gear, travel bags, and more.",
         "projecturl": "https://www.ameandlulu.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "modholic",
-        "projectdescription": "Discover the best Mid Century Modern furniture at Modholic - Your One Stop Shop for stylish reproductions at unbeatable prices. Enjoy free shipping nationwide &amp; easy product financing!",
+        "projectname": "Modholic",
+        "projectdescription": "An online furniture store specializing in Mid-Century Modern furniture with stylish reproductions at affordable prices.",
         "projecturl": "https://www.modholic.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "sunny-bay",
-        "projectdescription": "Best microwavable heating pads for pain relief. High-quality, unique designs that hold heat longer than other brands. Use for heat therapy and cold therapy.",
+        "projectname": "Sunny-Bay",
+        "projectdescription": "A brand offering high-quality microwavable heating pads for pain relief, designed for both heat and cold therapy.",
         "projecturl": "https://sunny-bay.com/",
         "projectimage": "/images/website-image.webp"
       }
@@ -221,68 +221,68 @@
     "workheading": "Webflow",
     "projects": [
       {
-        "projectname": "patient10x",
-        "projectdescription": "We deliver strategic clinic growth using digital marketing services for doctors and surgeons. We help doctors grow their private practice, acquire new patients, and create a streamlined web experience for their patients.",
+        "projectname": "Patient10x",
+        "projectdescription": "A healthcare marketing platform that helps doctors and surgeons grow their clinics through digital marketing and patient acquisition strategies.",
         "projecturl": "https://www.patient10x.com/",
-        "projectimage": "/images/websites/Patient.png"
+        "projectimage": "/images/websites/patient.webp"
       },
       {
-        "projectname": "dextall",
-        "projectdescription": "NREMG offers professional real estate services, empowering investors with expert guidance and national real estate management solutions. Visit now!",
+        "projectname": "Dextall",
+        "projectdescription": "A construction technology company specializing in prefabricated building facades to improve energy efficiency and streamline the construction process.",
         "projecturl": "https://www.dextall.com/",
-        "projectimage": "/images/websites/Dextall.png"
+        "projectimage": "/images/websites/dextail.webp"
       },
       {
         "projectname": "NREMG",
-        "projectdescription": "NREMG offers professional real estate services, empowering investors with expert guidance and national real estate management solutions. Visit now!",
+        "projectdescription": "A real estate management group providing professional services to investors, offering guidance and solutions for property investments across the nation.",
         "projecturl": "https://www.nremg.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
         "projectname": "Spaciable",
-        "projectdescription": "Spaciable is a PropTech company with over 25 experience in the real estate sector. We specialise in making processes more efficient and ESG-friendly while enhancing the home user experience. Our online portal provides easy access to essential information and documents, all in one place.",
+        "projectdescription": "A PropTech company that simplifies real estate processes with an online portal providing easy access to essential documents and property management tools.",
         "projecturl": "https://www.spaciable.io/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "wildjar",
-        "projectdescription": "Drive more revenue from your inbound phone leads with WildJar's Call Tracking and Analytics platform. Contact us now to book a demo today!",
+        "projectname": "WildJar",
+        "projectdescription": "A call tracking and analytics platform that helps businesses drive revenue by optimizing their inbound phone lead conversions.",
         "projecturl": "https://www.wildjar.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "bass-medical-group",
-        "projectdescription": "Headquartered in Walnut Creek, CA, BASS Medical Group is the Greater Bay Area’s leading healthcare specialist provider. With over 300 providers, 200 locations, & 42 specialties, BASS provides state-of-the-art care in a family setting. Known for its smaller, independent physician-led practices, BASS offers personal, patient-focused medical care & specialty services.",
+        "projectname": "BASS-Medical-Group",
+        "projectdescription": "A leading healthcare specialist provider in California, offering state-of-the-art medical care through a network of 300+ providers across multiple locations.",
         "projecturl": "https://bass-medical-group.webflow.io/",
         "projectimage": "/images/website-image.webp"
       },
       {
         "projectname": "HostGenius",
-        "projectdescription": "Maximize your rental opportunities with HostGenius, a growing Vancouver-based Airbnb vacation rental & property management company. ✔️ Become a Superhost!",
+        "projectdescription": "A property management company based in Vancouver that helps Airbnb hosts maximize their rental income and become Superhosts.",
         "projecturl": "https://hostgenius-063f3c.webflow.io/",
         "projectimage": "/images/website-image.webp"
       },
       {
         "projectname": "Cardiac-Care",
-        "projectdescription": "Cardiac Care Associates is a medical practice with offices throughout Virginia. Meet our team of respected doctors and schedule an appointment online!",
+        "projectdescription": "A specialized medical practice offering expert cardiology care across multiple locations in Virginia, with a team of experienced doctors.",
         "projecturl": "https://www.cardiaccarepc.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
         "projectname": "3-Point-Elite",
-        "projectdescription": "3 Point Elite Gynecology and Wellness Specialists was designed to create a space where addressing the wants and needs of our patients is the top priority! Our medical providers are board certified in Gynecology and Obstetrics. Our behavioral health specialists are licensed by the state of Maryland and come with years of experience in various settings.",
+        "projectdescription": "A gynecology and wellness clinic focused on providing personalized care with board-certified specialists in Maryland.",
         "projecturl": "https://www.3pointelite.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "crop-photo",
-        "projectdescription": "AI-Powered Bulk Image Editing: Crop, resize & retouch in seconds be it products, faces, on-model, lifestyle shots all with Crop.photo.",
+        "projectname": "Crop-Photo",
+        "projectdescription": "An AI-powered bulk image editing tool that allows users to crop, resize, and retouch images quickly and efficiently.",
         "projecturl": "https://www.crop.photo/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "ivoryandfine",
-        "projectdescription": "We are delighted to offer elevated design and impeccable quality to match the style of the most beautiful events",
+        "projectname": "Ivory-&-Fine",
+        "projectdescription": "A premium event design company specializing in high-end decor and luxury event planning for weddings and special occasions.",
         "projecturl": "https://www.ivoryandfine.com/",
         "projectimage": "/images/website-image.webp"
       }
@@ -292,134 +292,134 @@
     "workheading": "Worpdess",
     "projects": [
       {
-        "projectname": "hiring-hub",
-        "projectdescription": "Empower your career as a nurse; protect your license from medical malpractice and discipline. We are a voice for nurses.",
+        "projectname": "Hiring Hub",
+        "projectdescription": "An online recruitment platform connecting employers with independent recruiters to simplify the hiring process.",
         "projecturl": "https://www.hiring-hub.com/",
-        "projectimage": "/images/websites/Hiring-Hub.png"
+        "projectimage": "/images/websites/hiring-hub.webp"
       },
       {
-        "projectname": "empowerednurses",
-        "projectdescription": "Empower your career as a nurse; protect your license from medical malpractice and discipline. We are a voice for nurses.",
+        "projectname": "Empowered Nurses",
+        "projectdescription": "A support platform for nurses providing legal protection, career guidance, and advocacy against malpractice claims.",
         "projecturl": "https://empowerednurses.org/",
-        "projectimage": "/images/websites/Patient.png"
+        "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "rapid-clean",
-        "projectdescription": "Empower your career as a nurse; protect your license from medical malpractice and discipline. We are a voice for nurses.",
+        "projectname": "Rapid Clean",
+        "projectdescription": "A leading supplier of commercial cleaning products, equipment, and hygiene solutions for various industries.",
         "projecturl": "https://rapidclean.com.au/",
-        "projectimage": "/images/websites/Rapid.png"
+        "projectimage": "/images/websites/rapidclean.webp"
       },
       {
-        "projectname": "colorado-estate-planning",
-        "projectdescription": "Business planning and estate planning requires an experienced attorney. Contact our attorneys today",
+        "projectname": "Colorado Estate Planning",
+        "projectdescription": "A legal firm specializing in estate and business planning, providing expert guidance for asset protection.",
         "projecturl": "https://www.coloradoestateplanning.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "Shoulder-Physiotherapy",
-        "projectdescription": "Excellence In Shoulder Physiotherapy - The team at Auckland Shoulder Clinic are committed to improving health outcomes for all New Zealanders.",
+        "projectname": "Shoulder Physiotherapy",
+        "projectdescription": "A specialized physiotherapy clinic focused on shoulder rehabilitation and sports injury treatments.",
         "projecturl": "https://shoulderphysio.co.nz/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "injury-lawyer-miami",
-        "projectdescription": "Drive more revenue from your inbound phone leads with WildJar's Call Tracking and Analytics platform. Contact us now to book a demo today!",
+        "projectname": "Injury Lawyer Miami",
+        "projectdescription": "A legal consultancy providing expert advice and representation for personal injury claims in Miami.",
         "projecturl": "https://injury-lawyer-miami.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "smith-and-weer",
-        "projectdescription": "Our family lawyers provide legal assistance for Peoria, Pekin, and Galesburg IL. Contact us today for our professional legal expertise.",
+        "projectname": "Smith and Weer",
+        "projectdescription": "A law firm specializing in family law, estate planning, and personal injury cases in Illinois.",
         "projecturl": "https://smithandweer.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "house-of-virtruve",
-        "projectdescription": "Maximize your rental opportunities with HostGenius, a growing Vancouver-based Airbnb vacation rental & property management company. ✔️ Become a Superhost!",
+        "projectname": "House of Virtruve",
+        "projectdescription": "A luxury interior design and home decor brand offering bespoke furniture and architectural solutions.",
         "projecturl": "https://www.houseofvirtruve.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "the-furniture-labels",
-        "projectdescription": "Discover a wide range of premium office furniture in Dubai at The Furniture Labels. We are the Best Office Furniture Supplier in Dubai UAE.",
+        "projectname": "The Furniture Labels",
+        "projectdescription": "A premium furniture retailer in Dubai offering high-quality office and home furniture solutions.",
         "projecturl": "https://thefurniturelabels.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "pawflex",
-        "projectdescription": "A Power Packed, Potent Concoction of Wild & Organic Herbs and Oils, conjured up to address common topical maladies that may, time to time, affect your Pets.",
+        "projectname": "Pawflex",
+        "projectdescription": "A pet care brand providing organic and herbal treatments for common pet skin issues.",
         "projecturl": "https://pawflex.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "p&h-casters",
-        "projectdescription": "Explore a wide variety of reliable casters and wheels, including heavy duty swivel and rigid casters. Being a trusted supplier since 1969, P&H Casters delivers the best solutions for numerous industries. Check our product range now.",
+        "projectname": "P&H Casters",
+        "projectdescription": "A leading manufacturer and supplier of industrial casters and wheels for various applications.",
         "projecturl": "https://phcasters.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "collector-swatches",
-        "projectdescription": "CollectorsWatches has provided the highest quality timepieces at unbeatable prices for over 75 years. We have the largest stock of preowned and brand new timepieces from brands such as Rolex, Patek Philippe, Tudor, Omega, Breitling, Cartier, and more! Every item listed is in-stock and guaranteed to be 100% authentic.",
+        "projectname": "Collectors Watches",
+        "projectdescription": "An online marketplace for luxury watches, including Rolex, Patek Philippe, and Omega.",
         "projecturl": "https://collectorswatches.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "designy-our-beef",
-        "projectdescription": "The perfect, high-quality steak is now within your reach. Get a unique steak house experience at home with Designer Beef!",
+        "projectname": "Design Your Beef",
+        "projectdescription": "An online service offering high-quality customized steak and beef cuts for home delivery.",
         "projecturl": "https://designyourbeef.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "franksandkoenig",
-        "projectdescription": "We help our clients successfully recover millions of dollars in workers’ compensation benefits each year. Contact Palm Beach Gardens today for a free consult.",
+        "projectname": "Franks and Koenig",
+        "projectdescription": "A legal firm helping clients secure compensation for workplace injuries and employment disputes.",
         "projecturl": "https://franksandkoenig.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "joshuadesigns",
-        "projectdescription": "Joshua Designs presents a new standard of building design and craft in South Australia. Our company is a boutique building design and construction company specializing in practical solutions and a hands-on approach to developing the finished product.",
+        "projectname": "Joshua Designs",
+        "projectdescription": "A boutique building design and construction firm in South Australia, specializing in customized architectural solutions.",
         "projecturl": "https://joshuadesigns.com.au/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "st-peters-wood-bridge",
-        "projectdescription": "Saint Peter's is a Franciscans parish community located in Woodbridge, Ontario staffed by Friars of the Immaculate Conception Province, NY, USA.",
+        "projectname": "St. Peters Woodbridge",
+        "projectdescription": "A Catholic parish community in Ontario offering religious services and community outreach programs.",
         "projecturl": "https://stpeterswoodbridge.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "preciousblood",
-        "projectdescription": "Saint Peter's is a Franciscans parish community located in Woodbridge, Ontario staffed by Friars of the Immaculate Conception Province, NY, USA.",
+        "projectname": "Precious Blood",
+        "projectdescription": "A faith-based organization providing spiritual guidance and religious services in Ontario.",
         "projecturl": "https://www.preciousblood.ca/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "linandrews",
-        "projectdescription": "Buy, sell, lease or invest in commercial and residential property with Adelaide's only quality assured agent with a track record of over 50 years in SA.",
+        "projectname": "Lin Andrews",
+        "projectdescription": "A real estate firm in South Australia offering services in residential and commercial property sales and management.",
         "projecturl": "https://www.linandrews.com.au/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "rlcglobalforum",
-        "projectdescription": "RLC Global Forum is a trusted community that unpacks key drivers of change for global leaders with the power and influence to create lasting impact in the industry.",
+        "projectname": "RLC Global Forum",
+        "projectdescription": "An exclusive platform for business leaders to discuss global trends and industry insights.",
         "projecturl": "https://rlcglobalforum.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "rlcglobalforum2025",
-        "projectdescription": "Global CEOs, innovators, investors, and policymakers make news at the industry's most influential regional meeting. February 4 - 5, 2025 in Riyadh.",
+        "projectname": "RLC Global Forum 2025",
+        "projectdescription": "A high-profile industry meeting for global CEOs, investors, and policymakers happening in Riyadh in 2025.",
         "projecturl": "https://2025.rlcglobalforum.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "ceosummit",
-        "projectdescription": "An exclusive meeting for the retail leaders who matter. The 2024 CEO Summit, co-hosted by The Wharton School’s Baker Retailing Center and RLC Global Forum scheduled for October 15, in New York, is a distinctive convergence of leadership and innovation. This is an exclusive, invitation-only event designed to unite the most prominent retail.",
+        "projectname": "CEO Summit",
+        "projectdescription": "An invitation-only event co-hosted by The Wharton School and RLC Global Forum, focusing on retail leadership and innovation.",
         "projecturl": "https://ceosummit.rlcglobalforum.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "blinkcomms",
-        "projectdescription": "We engineer that thrive online and off. We combine technology, design and creativity to create frictionless, consistent and unified experiences that help our clients connect with their audience and deliver measurable results in complex categories.",
+        "projectname": "Blink Comms",
+        "projectdescription": "A digital marketing and technology company specializing in online brand engagement and customer experience solutions.",
         "projecturl": "https://www.blinkcomms.io/",
         "projectimage": "/images/website-image.webp"
       }
@@ -430,15 +430,15 @@
     "projects": [
       {
         "projectname": "Estatemate",
-        "projectdescription": "Empower your career as a nurse; protect your license from medical malpractice and discipline. We are a voice for nurses.",
+        "projectdescription": "A property management platform designed to streamline communication and operations for homeowners and communities in South Africa.",
         "projecturl": "https://www.estatemate.co.za/",
-        "projectimage": "/images/websites/estatemate.png"
+        "projectimage": "/images/websites/estatemate.webp"
       },
       {
-        "projectname": "unibuddy",
-        "projectdescription": "Empower your career as a nurse; protect your license from medical malpractice and discipline. We are a voice for nurses.",
+        "projectname": "Unibuddy",
+        "projectdescription": "A student engagement platform connecting prospective students with university ambassadors to provide real insights and guidance on campus life.",
         "projecturl": "https://unibuddy.co",
-        "projectimage": "/images/websites/Unibuddy.png"
+        "projectimage": "/images/websites/unibuddy.webp"
       }
     ]
   },
@@ -447,9 +447,9 @@
     "projects": [
       {
         "projectname": "Bankrate",
-        "projectdescription": "Empower your career as a nurse; protect your license from medical malpractice and discipline. We are a voice for nurses.",
+        "projectdescription": "A leading financial advice platform offering expert insights on mortgages, credit cards, loans, and personal finance management.",
         "projecturl": "https://www.bankrate.com/",
-        "projectimage": "/images/websites/Bankrate.png"
+        "projectimage": "/images/websites/bankrate.webp"
       }
     ]
   }

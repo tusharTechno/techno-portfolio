@@ -8,7 +8,7 @@ const Cards = () => {
     { icon: "ri-code-s-slash-line text-blue-500", title: "Front-End Development", skills: ["ReactJS", "NextJS", "JavaScript", "TypeScript", "CSS3", "Tailwind CSS", "Bootstrap", "JavaScript frameworks"] },
     { icon: "ri-database-2-line text-green-500", title: "Database Excellence", skills: ["MySQL", "PostgreSQL", "MongoDB", "Firebase"] },
     { icon: "ri-cloud-line text-yellow-500", title: "API Creation/Implementation", skills: ["GraphQL", "RestAPI", "ChatGPT API", "Wized"] },
-    { icon: "ri-server-line text-red-500", title: "Back-End Development", skills: ["Laravel", "CodeIgniter", "NextJS", "NodeJS"] },
+    { icon: "ri-server-line text-red-500", title: "Back-End Development", skills: ["Laravel", "CodeIgniter", "NextJS", "NodeJS",'Express.js'] },
     { icon: "ri-git-repository-commits-line text-indigo-500", title: "Other Technologies", skills: ["Git", "GitHub", "Bitbucket", "AWS", "Azure", "Google Cloud"] },
   ];
 

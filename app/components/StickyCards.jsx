@@ -31,9 +31,10 @@ const StickyCards = ({ data, index }) => {
         </div>
         <Image
           src={data.img}
-          width={684}
-          height={352}
-          className="w-full h-50 md:h-85 object-cover rounded-lg overflow-hidden object-center"
+          width={1368}
+          height={704}
+          loading="lazy"
+          className="w-full h-40 md:h-85 object-cover rounded-lg overflow-hidden object-center"
           alt="website-img"
         />
 
