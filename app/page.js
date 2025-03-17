@@ -1,6 +1,6 @@
 "use client";
 import dynamic from "next/dynamic";
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import SectionHeading from "./components/SectionHeading";
 import Image from "next/image";
 import { motion } from "motion/react";
@@ -8,11 +8,15 @@ import MacHeader from "./components/MacHeader";
 import HomeCard from "./components/HomeCard";
 import Cards from "./components/Cards/Cards";
 import StatsSection from "./components/StatsSection";
+import { ToastContainer } from "react-toastify";
+import { handleContactForm } from "./form";
+import LoadingSpinner from "./components/LoadingSpinner";
 const CodeEditor = dynamic(() => import("./components/CodeEditor"), {
   ssr: false,
 });
 
 const HomePage = () => {
+  const [isSending, setSending] = useState(false);
   const formRef = useRef(null);
 
   const handleScroll = () => {
@@ -25,6 +29,7 @@ const HomePage = () => {
 
   return (
     <main className="w-full">
+      <ToastContainer />
       <section className="hero bg-zinc-800 w-full py-10 ">
         <div className="flex flex-col md:flex-row items-center w-[90%] gap-10 mx-auto">
           <div className="w-full md:w-1/2 relative">
@@ -142,6 +147,7 @@ const HomePage = () => {
             >
               <form
                 className="w-full grid gap-3"
+                onSubmit={(e) => handleContactForm(e, setSending)}
               >
                 <input
                   type="text"
@@ -172,8 +178,11 @@ const HomePage = () => {
                   placeholder="Your Message"
                   className="w-full min-h-20 max-h-30 outline-none rounded-lg py-1 px-2 bg-zinc-800 border-[1px] border-zinc-700"
                 ></textarea>
-                <button className="bg-indigo-500 cursor-pointer py-2 font-semibold rounded-lg mt-3">
-                  Send Message
+                <button
+                  disabled={isSending}
+                  className="bg-indigo-500 disabled:bg-indigo-400 cursor-pointer py-2 font-semibold rounded-lg mt-3"
+                >
+                  {isSending ? <LoadingSpinner /> : "Send Message"}
                 </button>
               </form>
             </div>
