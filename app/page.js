@@ -153,18 +153,21 @@ const HomePage = () => {
               >
                 <input
                   type="text"
+                  minLength={3}
                   placeholder="Your Name"
                   name="name"
                   className="w-full h-11 outline-none rounded-lg py-1 px-2 bg-zinc-800 border-[1px] border-zinc-700"
                 />
                 <input
                   type="email"
+                  minLength={3}
                   name="email"
                   placeholder="Your Email"
                   className="w-full h-11 outline-none rounded-lg py-1 px-2 bg-zinc-800 border-[1px] border-zinc-700"
                 />
                 <input
                   type="text"
+                  minLength={3}
                   name="subject"
                   placeholder="Subject"
                   className="w-full h-11 outline-none rounded-lg py-1 px-2 bg-zinc-800 border-[1px] border-zinc-700"
@@ -172,21 +175,23 @@ const HomePage = () => {
                 <input
                   type="tel"
                   name="phone"
+                  minLength={10}
                   placeholder="Phone No"
                   className="w-full h-11 outline-none rounded-lg py-1 px-2 bg-zinc-800 border-[1px] border-zinc-700"
                 />
                 <textarea
+                  minLength={3}
                   name="message"
                   placeholder="Your Message"
-                  className="w-full min-h-20 max-h-30 outline-none rounded-lg py-1 px-2 bg-zinc-800 border-[1px] border-zinc-700"
+                  className="w-full min-h-20 max-h-30 outline-none rounded-lg py-2 px-2 bg-zinc-800 border-[1px] border-zinc-700"
                 ></textarea>
-
-                <ReCAPTCHA
-                  sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
-                  ref={recaptchaRef}
-                  className="w-full"
-                />
-
+                <div className="w-full flex justify-center mt-2">
+                  <ReCAPTCHA
+                    sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+                    ref={recaptchaRef}
+                    className="w-full"
+                  />
+                </div>
                 <button
                   disabled={isSending}
                   className="bg-indigo-500 disabled:bg-indigo-400 cursor-pointer py-2 font-semibold rounded-lg mt-3"
