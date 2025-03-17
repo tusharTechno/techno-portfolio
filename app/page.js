@@ -142,8 +142,6 @@ const HomePage = () => {
             >
               <form
                 className="w-full grid gap-3"
-                action="https://formsubmit.co/b2b95dd1895e39f37b4e11dbdd147d68"
-                method="POST"
               >
                 <input
                   type="text"
