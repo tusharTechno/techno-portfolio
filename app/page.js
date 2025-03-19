@@ -25,10 +25,6 @@ const HomePage = () => {
     formRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
   return (
     <main className="w-full">
       <ToastContainer theme="dark" />
