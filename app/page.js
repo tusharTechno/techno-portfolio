@@ -185,7 +185,7 @@ const HomePage = () => {
                   placeholder="Your Message"
                   className="w-full min-h-20 max-h-30 outline-none rounded-lg py-2 px-2 bg-zinc-800 border-[1px] border-zinc-700"
                 ></textarea>
-                <div className="w-full flex justify-center mt-2">
+                <div className="w-full recaptcha flex justify-center mt-2">
                   <ReCAPTCHA
                     sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
                     ref={recaptchaRef}
@@ -220,7 +220,7 @@ const HomePage = () => {
                   label: "Location",
                   text: "Chandigarh, India",
                   colors: "bg-yellow-500/20 text-yellow-500",
-                  href: "mailto:pankajtechno17@gmail.com",
+                  href: "https://maps.app.goo.gl/mYuvYExNHsNYbpnT7",
                   icon: "ri-map-pin-line",
                 },
                 {

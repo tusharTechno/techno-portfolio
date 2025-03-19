@@ -33,6 +33,18 @@
         "projectimage": "/images/website-image.webp"
       },
       {
+        "projectname": "FusionInvoice",
+        "projectdescription": "FusionInvoice is a self-hosted invoicing and CRM system for freelancers and small businesses, offering customizable invoices, recurring billing, and online payments.",
+        "projecturl": "https://www.fusioninvoice.com/",
+        "projectimage": "/images/website-image.webp"
+      },
+      {
+        "projectname": "Heroku",
+        "projectdescription": "Heroku is a cloud platform that enables developers to deploy, manage, and scale applications easily with support for multiple programming languages.",
+        "projecturl": "https://id.heroku.com/login",
+        "projectimage": "/images/website-image.webp"
+      },
+      {
         "projectname": "Rocket-Rubber",
         "projectdescription": "A specialized e-commerce store selling rubber products such as seals, gaskets, and industrial components.",
         "projecturl": "https://rocketrubber.com/",
@@ -94,19 +106,13 @@
       {
         "projectname": "WhatApartment",
         "projectdescription": "A subscription-based service that simplifies rental property searches in Barcelona and Madrid with curated listings.",
-        "projecturl": "https://www.whatapartment.com/",
+        "projecturl": "https://whatapartment.technoarray.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
         "projectname": "Brighton-Bike-Share",
         "projectdescription": "A data-driven platform processing live information on the availability of bikes and docking stations within the Brighton and Hove area.",
         "projecturl": "http://btn-beryl-dev.scb.bike/login",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "Infiniguard-Client",
-        "projectdescription": "A customer-facing portal for managing security services, monitoring data, and ensuring real-time protection.",
-        "projecturl": "https://clientsdev.infiniguard.com/client/login",
         "projectimage": "/images/website-image.webp"
       }
     ]
@@ -137,6 +143,12 @@
         "projectdescription": "An online marketplace offering unique and curated products across various categories, designed to provide a seamless shopping experience.",
         "projecturl": "https://www.zeaara.com/",
         "projectimage": "/images/website-image.webp"
+      },
+      {
+        "projectname": "YormApp",
+        "projectdescription": "YormApp is a digital marketplace connecting users with local businesses, offering services, deals, and promotions in various industries.",
+        "projecturl": "https://yormapp.com/en/",
+        "projectimage": "/images/website-image.webp"
       }
     ]
   },
@@ -144,7 +156,7 @@
     "workheading": "Shopify",
     "projects": [
       {
-        "projectname": "Dollar Shave Club",
+        "projectname": "Dollar-Shave-Club",
         "projectdescription": "A subscription-based grooming brand offering high-quality razors, shaving essentials, and personal care products for men.",
         "projecturl": "https://us.dollarshaveclub.com/",
         "projectimage": "/images/websites/events.webp"
@@ -165,6 +177,12 @@
         "projectname": "The-Face-Haus",
         "projectdescription": "A modern facial bar providing high-quality skincare services and professional facial treatments in a relaxed environment.",
         "projecturl": "https://thefacehaus.com/",
+        "projectimage": "/images/website-image.webp"
+      },
+      {
+        "projectname": "RAD-Roller",
+        "projectdescription": "RAD Roller offers innovative massage and recovery tools designed to improve mobility, reduce muscle tension, and enhance athletic performance.",
+        "projecturl": "https://radroller.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
@@ -195,6 +213,12 @@
         "projectname": "TruLabs",
         "projectdescription": "A health and fitness brand offering high-quality energy drinks, hydration mixes, and pre-workout supplements for performance enhancement.",
         "projecturl": "https://trulabs.com/",
+        "projectimage": "/images/website-image.webp"
+      },
+      {
+        "projectname": "FlatSpec",
+        "projectdescription": "FlatSpec provides high-precision metrology solutions for industries requiring advanced surface measurement and quality control.",
+        "projecturl": "https://www.flatspec.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
@@ -281,9 +305,9 @@
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "Ivory-&-Fine",
-        "projectdescription": "A premium event design company specializing in high-end decor and luxury event planning for weddings and special occasions.",
-        "projecturl": "https://www.ivoryandfine.com/",
+        "projectname": "Alpha-Domains",
+        "projectdescription": "Alpha Domains is a domain registration and management platform offering premium domain names, hosting, and related web services.",
+        "projecturl": "https://www.alphadomains.com/",
         "projectimage": "/images/website-image.webp"
       }
     ]
@@ -292,55 +316,55 @@
     "workheading": "Worpdess",
     "projects": [
       {
-        "projectname": "Hiring Hub",
+        "projectname": "Hiring-Hub",
         "projectdescription": "An online recruitment platform connecting employers with independent recruiters to simplify the hiring process.",
         "projecturl": "https://www.hiring-hub.com/",
         "projectimage": "/images/websites/hiring-hub.webp"
       },
       {
-        "projectname": "Empowered Nurses",
+        "projectname": "Empowered-Nurses",
         "projectdescription": "A support platform for nurses providing legal protection, career guidance, and advocacy against malpractice claims.",
         "projecturl": "https://empowerednurses.org/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "Rapid Clean",
+        "projectname": "Rapid-Clean",
         "projectdescription": "A leading supplier of commercial cleaning products, equipment, and hygiene solutions for various industries.",
         "projecturl": "https://rapidclean.com.au/",
         "projectimage": "/images/websites/rapidclean.webp"
       },
       {
-        "projectname": "Colorado Estate Planning",
+        "projectname": "Colorado-Estate-Planning",
         "projectdescription": "A legal firm specializing in estate and business planning, providing expert guidance for asset protection.",
         "projecturl": "https://www.coloradoestateplanning.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "Shoulder Physiotherapy",
+        "projectname": "Shoulder-Physiotherapy",
         "projectdescription": "A specialized physiotherapy clinic focused on shoulder rehabilitation and sports injury treatments.",
         "projecturl": "https://shoulderphysio.co.nz/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "Injury Lawyer Miami",
+        "projectname": "Injury-Lawyer-Miami",
         "projectdescription": "A legal consultancy providing expert advice and representation for personal injury claims in Miami.",
         "projecturl": "https://injury-lawyer-miami.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "Smith and Weer",
+        "projectname": "Smith-and-Weer",
         "projectdescription": "A law firm specializing in family law, estate planning, and personal injury cases in Illinois.",
         "projecturl": "https://smithandweer.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "House of Virtruve",
+        "projectname": "House-of-Virtruve",
         "projectdescription": "A luxury interior design and home decor brand offering bespoke furniture and architectural solutions.",
         "projecturl": "https://www.houseofvirtruve.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "The Furniture Labels",
+        "projectname": "The-Furniture-Labels",
         "projectdescription": "A premium furniture retailer in Dubai offering high-quality office and home furniture solutions.",
         "projecturl": "https://thefurniturelabels.com/",
         "projectimage": "/images/website-image.webp"
@@ -358,69 +382,140 @@
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "Collectors Watches",
+        "projectname": "Collectors-Watches",
         "projectdescription": "An online marketplace for luxury watches, including Rolex, Patek Philippe, and Omega.",
         "projecturl": "https://collectorswatches.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "Design Your Beef",
+        "projectname": "Design-Your-Beef",
         "projectdescription": "An online service offering high-quality customized steak and beef cuts for home delivery.",
         "projecturl": "https://designyourbeef.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "Franks and Koenig",
+        "projectname": "Franks-and-Koenig",
         "projectdescription": "A legal firm helping clients secure compensation for workplace injuries and employment disputes.",
         "projecturl": "https://franksandkoenig.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "Joshua Designs",
+        "projectname": "Joshua-Designs",
         "projectdescription": "A boutique building design and construction firm in South Australia, specializing in customized architectural solutions.",
         "projecturl": "https://joshuadesigns.com.au/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "St. Peters Woodbridge",
+        "projectname": "St.-Peters-Woodbridge",
         "projectdescription": "A Catholic parish community in Ontario offering religious services and community outreach programs.",
         "projecturl": "https://stpeterswoodbridge.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "Precious Blood",
+        "projectname": "Precious-Blood",
         "projectdescription": "A faith-based organization providing spiritual guidance and religious services in Ontario.",
         "projecturl": "https://www.preciousblood.ca/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "Lin Andrews",
+        "projectname": "Lin-Andrews",
         "projectdescription": "A real estate firm in South Australia offering services in residential and commercial property sales and management.",
         "projecturl": "https://www.linandrews.com.au/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "RLC Global Forum",
+        "projectname": "RLC-Global-Forum",
         "projectdescription": "An exclusive platform for business leaders to discuss global trends and industry insights.",
         "projecturl": "https://rlcglobalforum.com/",
         "projectimage": "/images/website-image.webp"
       },
       {
-        "projectname": "RLC Global Forum 2025",
-        "projectdescription": "A high-profile industry meeting for global CEOs, investors, and policymakers happening in Riyadh in 2025.",
-        "projecturl": "https://2025.rlcglobalforum.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "CEO Summit",
-        "projectdescription": "An invitation-only event co-hosted by The Wharton School and RLC Global Forum, focusing on retail leadership and innovation.",
-        "projecturl": "https://ceosummit.rlcglobalforum.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "Blink Comms",
+        "projectname": "Blink-Comms",
         "projectdescription": "A digital marketing and technology company specializing in online brand engagement and customer experience solutions.",
         "projecturl": "https://www.blinkcomms.io/",
+        "projectimage": "/images/website-image.webp"
+      },
+      {
+        "projectname": "A-Med-Spa",
+        "projectdescription": "A Med Spa offers advanced aesthetic treatments, skincare solutions, and wellness services to enhance beauty and confidence.",
+        "projecturl": "https://www.amedspa.com/",
+        "projectimage": "/images/website-image.webp"
+      },
+      {
+        "projectname": "Black-&-Kletz-Allergy",
+        "projectdescription": "A specialized medical practice providing allergy, asthma, and immunology treatments to patients in the Washington, D.C. area.",
+        "projecturl": "http://www.blackandkletzallergy.com/",
+        "projectimage": "/images/website-image.webp"
+      },
+      {
+        "projectname": "My-Lawyers-LLP",
+        "projectdescription": "A legal firm specializing in estate planning, business law, and real estate transactions, offering expert legal services.",
+        "projecturl": "http://mylawyersllp.com/",
+        "projectimage": "/images/website-image.webp"
+      },
+      {
+        "projectname": "Bruno-Nalu",
+        "projectdescription": "A high-end law firm offering legal representation in criminal defense, DUI cases, and civil litigation.",
+        "projecturl": "https://www.brunonalu.com/",
+        "projectimage": "/images/website-image.webp"
+      },
+      {
+        "projectname": "Greenberg-Lawyers",
+        "projectdescription": "A law firm specializing in personal injury, workers' compensation, and medical malpractice claims.",
+        "projecturl": "http://www.greenberglawyers.com/",
+        "projectimage": "/images/website-image.webp"
+      },
+      {
+        "projectname": "ManageWP",
+        "projectdescription": "ManageWP provides an all-in-one WordPress management platform for site updates, security, and performance optimization.",
+        "projecturl": "https://managewp.com/",
+        "projectimage": "/images/website-image.webp"
+      },
+      {
+        "projectname": "My-Consulting-Offer",
+        "projectdescription": "A consulting career coaching platform helping job seekers land roles at top consulting firms.",
+        "projecturl": "https://myconsultingoffer.org/",
+        "projectimage": "/images/website-image.webp"
+      },
+      {
+        "projectname": "SoCal-Surf-SUP",
+        "projectdescription": "A premier surfing and stand-up paddleboarding school offering lessons and equipment rentals in Southern California.",
+        "projecturl": "https://socalsurfsup.com/",
+        "projectimage": "/images/website-image.webp"
+      },
+      {
+        "projectname": "Sterling-Investment-Management",
+        "projectdescription": "An investment management firm providing financial advisory services, portfolio management, and wealth planning.",
+        "projecturl": "https://sterlinginvestmentmanagement.com/",
+        "projectimage": "/images/website-image.webp"
+      },
+      {
+        "projectname": "Urart-Studio",
+        "projectdescription": "Urart Studio specializes in unique, handcrafted jewelry and art pieces inspired by ancient civilizations.",
+        "projecturl": "https://urartstudio.com/",
+        "projectimage": "/images/website-image.webp"
+      },
+      {
+        "projectname": "Loss-and-Grief",
+        "projectdescription": "A counseling and support service helping individuals navigate loss, grief, and emotional well-being.",
+        "projecturl": "http://lossandgrief.com.au/",
+        "projectimage": "/images/website-image.webp"
+      }
+    ]
+  },
+  {
+    "workheading": "ProcessWire",
+    "projects": [
+      {
+        "projectname": "Summit-NYC",
+        "projectdescription": "Summit NYC is a luxury residential skyscraper offering high-end apartments with premium amenities and breathtaking city views.",
+        "projecturl": "https://summitnyc.com/",
+        "projectimage": "/images/website-image.webp"
+      },
+      {
+        "projectname": "1289-Lexington",
+        "projectdescription": "1289 Lexington is a modern residential and commercial development in New York, providing luxury living spaces with top-tier facilities.",
+        "projecturl": "https://1289lexington.com/",
         "projectimage": "/images/website-image.webp"
       }
     ]
@@ -450,6 +545,17 @@
         "projectdescription": "A leading financial advice platform offering expert insights on mortgages, credit cards, loans, and personal finance management.",
         "projecturl": "https://www.bankrate.com/",
         "projectimage": "/images/websites/bankrate.webp"
+      }
+    ]
+  },
+  {
+    "workheading": "Squarespace",
+    "projects": [
+      {
+        "projectname": "Ivory-&-Fine",
+        "projectdescription": "A premium event design company specializing in high-end decor and luxury event planning for weddings and special occasions.",
+        "projecturl": "https://www.ivoryandfine.com/",
+        "projectimage": "/images/website-image.webp"
       }
     ]
   }

@@ -21,7 +21,7 @@ export const handleContactForm = async (e, setSending, recaptchaRef) => {
   if (!name || !email || !subject || !phone || !message) {
     return toast.error("All fields are required");
   }
-
+x
   // Verify reCAPTCHA
   const recaptchaToken = recaptchaRef.current.getValue();
   if (!recaptchaToken) {
