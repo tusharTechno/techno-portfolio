@@ -31,7 +31,7 @@ const HomePage = () => {
 
   return (
     <main className="w-full">
-      <ToastContainer />
+      <ToastContainer theme="dark" />
       <section className="hero bg-zinc-800 w-full py-10 ">
         <div className="flex flex-col md:flex-row items-center w-[90%] gap-10 mx-auto">
           <div className="w-full md:w-1/2 relative">
@@ -185,13 +185,12 @@ const HomePage = () => {
                   placeholder="Your Message"
                   className="w-full min-h-20 max-h-30 outline-none rounded-lg py-2 px-2 bg-zinc-800 border-[1px] border-zinc-700"
                 ></textarea>
-                <div className="w-full recaptcha flex justify-center mt-2">
-                  <ReCAPTCHA
-                    sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
-                    ref={recaptchaRef}
-                    className="w-full"
-                  />
-                </div>
+                <ReCAPTCHA
+                  ref={recaptchaRef}
+                  sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+                  theme="dark"
+                  size="normal"
+                />
                 <button
                   disabled={isSending}
                   className="bg-indigo-500 disabled:bg-indigo-400 cursor-pointer py-2 font-semibold rounded-lg mt-3"
