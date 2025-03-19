@@ -13,7 +13,7 @@ const Cards = () => {
   ];
 
   return (
-    <div className="grid md:grid-cols-3 gap-5 w-[90%] mx-auto mt-5">
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 w-[90%] mx-auto mt-5">
       {devskills.map((data) => (
         <Card key={data.title} data={data} />
       ))}

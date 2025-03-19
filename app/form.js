@@ -23,9 +23,12 @@ export const handleContactForm = async (e, setSending, recaptchaRef) => {
   if (!name || !email || !subject || !phone || !message) {
     return toast.error("All fields are required.");
   }
+
   if (!recaptchaRef || !recaptchaRef.current) {
     return toast.error("reCAPTCHA is not loaded. Please try again.");
   }
+
+  console.log(recaptchaRef.current.getValue())
 
   const recaptchaToken = recaptchaRef.current.getValue();
   if (!recaptchaToken) {
@@ -56,7 +59,7 @@ export const handleContactForm = async (e, setSending, recaptchaRef) => {
     toast.success("Thank you for your submission!");
     console.log("Email sent successfully!", response.status, response.text);
     e.target.reset();
-    recaptchaRef.current.reset(); // Reset reCAPTCHA after success
+    recaptchaRef.current.reset();
     lastSubmittedTime = 0;
   } catch (error) {
     toast.error("Failed to send message. Please try again later.");

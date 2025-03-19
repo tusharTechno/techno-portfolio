@@ -11,6 +11,7 @@ const StickyCards = ({ data, index }) => {
       ${data.rotate}
       odd:rotate-1 even:-rotate-1
       mx-auto w-full md:w-[45rem] 
+      2xl:w-[60rem] 
       bg-zinc-900 rounded-lg 
       border border-zinc-200/10 
       overflow-hidden
@@ -34,7 +35,7 @@ const StickyCards = ({ data, index }) => {
           width={1368}
           height={704}
           loading="lazy"
-          className="w-full h-40 md:h-85 object-cover rounded-lg overflow-hidden object-center"
+          className="w-full h-40 md:h-85 2xl:h-auto object-cover rounded-lg overflow-hidden object-center"
           alt="website-img"
         />
 

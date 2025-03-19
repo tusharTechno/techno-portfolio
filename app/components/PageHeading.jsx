@@ -11,10 +11,10 @@ const PageHeading = ({ text, colorText }) => {
         ease: [0.87, 0, 0.13, 1],
         staggerChildren: 0.5,
       }}
-      className="text-3xl w-[90%] mx-auto md:w-full text-center md:text-6xl font-bold mt-5"
+      className="text-3xl mx-auto text-center leading-[1.2] sm:text-6xl font-bold mt-5"
     >
       {text}
-      <span className="text-gradient"> {colorText}</span>
+      <span className="text-gradient block lg:inline"> {colorText}</span>
     </motion.h1>
   );
 };

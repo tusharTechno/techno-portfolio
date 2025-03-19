@@ -33,8 +33,8 @@ const HomePage = () => {
     <main className="w-full">
       <ToastContainer theme="dark" />
       <section className="hero bg-zinc-800 w-full py-10 ">
-        <div className="flex flex-col md:flex-row items-center w-[90%] gap-10 mx-auto">
-          <div className="w-full md:w-1/2 relative">
+        <div className="flex flex-col lg:flex-row items-center w-[90%] gap-10 mx-auto">
+          <div className="w-full lg:w-1/2 relative">
             <span className="animate-bounce bg-purple-300/20 capitalize py-1 ml-10 mb-3 px-2 rounded-sm inline-block text-sm border-[1px] border-purple-500/20 text-purple-500">
               Performance optimization
             </span>
@@ -68,11 +68,11 @@ const HomePage = () => {
             <span className="capitalize animate-bounce-fast duration-250 absolute right-0 top-20 bg-yellow-300/20 py-1 mt-5 px-2 rounded-sm inline-block text-sm border-[1px] border-yellow-500/20 text-yellow-500">
               Otimized Code
             </span>
-            <span className="capitalize animate-bounce duration-250 absolute left-40 md:left-1/2 -bottom-8 md:-bottom-10 bg-indigo-300/20 py-1 mt-5 px-2 rounded-sm inline-block text-sm border-[1px] border-indigo-500/20 text-indigo-500">
+            <span className="capitalize animate-bounce duration-250 absolute left-40 md:left-1/2 -bottom-8 md:bottom-3 lg:-bottom-10 bg-indigo-300/20 py-1 mt-5 px-2 rounded-sm inline-block text-sm border-[1px] border-indigo-500/20 text-indigo-500">
               Scalability
             </span>
           </div>
-          <div className="w-full md:w-1/2 bg-zinc-900 rounded-lg overflow-hidden">
+          <div className="w-full lg:w-1/2 bg-zinc-900 rounded-lg overflow-hidden">
             <MacHeader text="index" />
             <div className="h-[28rem] grid items-center">
               <CodeEditor />
@@ -89,8 +89,8 @@ const HomePage = () => {
       <StatsSection />
 
       <section className="mt-5 md:mt-28">
-        <div className="w-[90%] mx-auto flex flex-col-reverse md:flex-row items-center">
-          <div className="w-full md:w-1/2 pr-1">
+        <div className="w-[90%] mx-auto flex flex-col-reverse lg:flex-row items-center">
+          <div className="w-full lg:w-1/2 pr-1">
             <SectionHeading
               align="text-left"
               text="Crafting Digital "
@@ -122,7 +122,7 @@ const HomePage = () => {
               Contact Me
             </button>
           </div>
-          <div className="w-full md:w-1/2 h-96">
+          <div className="w-full lg:w-1/2 lg:h-96">
             <Image
               src="/images/about.svg"
               width={800}
@@ -140,8 +140,8 @@ const HomePage = () => {
       </section>
 
       <section className="w-full mt-15 md:mt-24">
-        <div className="flex flex-col-reverse md:flex-row gap-y-8 items-center w-[90%] mx-auto">
-          <div className="w-full md:w-1/2 bg-zinc-900 rounded-lg border-[1px] border-zinc-200/10 overflow-hidden">
+        <div className="flex flex-col-reverse lg:flex-row gap-y-8 items-center w-[90%] mx-auto">
+          <div className="w-full lg:w-1/2 bg-zinc-900 rounded-lg border-[1px] border-zinc-200/10 overflow-hidden">
             <MacHeader text="Contact" />
             <div
               ref={formRef}
@@ -185,12 +185,14 @@ const HomePage = () => {
                   placeholder="Your Message"
                   className="w-full min-h-20 max-h-30 outline-none rounded-lg py-2 px-2 bg-zinc-800 border-[1px] border-zinc-700"
                 ></textarea>
-                <ReCAPTCHA
-                  ref={recaptchaRef}
-                  sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
-                  theme="dark"
-                  size="normal"
-                />
+                <div className="flex justify-center">
+                  <ReCAPTCHA
+                    ref={recaptchaRef}
+                    sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+                    theme="dark"
+                    size="normal"
+                  />
+                </div>
                 <button
                   disabled={isSending}
                   className="bg-indigo-500 disabled:bg-indigo-400 cursor-pointer py-2 font-semibold rounded-lg mt-3"
@@ -200,7 +202,7 @@ const HomePage = () => {
               </form>
             </div>
           </div>
-          <div className="w-full md:w-1/2 grid md:place-items-center">
+          <div className="w-full lg:w-1/2 grid lg:place-items-center">
             <div className="w-fit">
               <SectionHeading
                 align="text-left"
@@ -234,7 +236,7 @@ const HomePage = () => {
                   key={link.label}
                   target="_blank"
                   href={link.href}
-                  className="flex items-stretch gap-2 mt-8"
+                  className="flex items-stretch gap-3 mt-8"
                 >
                   <span
                     className={`grid w-12 place-items-center shrink-0 rounded-lg ${link.colors}`}

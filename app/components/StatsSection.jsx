@@ -3,9 +3,27 @@ import { motion, useInView } from "motion/react";
 import { useEffect, useState, useRef } from "react";
 
 const stats = [
-  { id: 1, icon: "ri-emotion-laugh-line text-purple-500", value: 258, suffix: "+", label: "Happy Clients" },
-  { id: 2, icon: "ri-book-shelf-line text-yellow-500", value: 590, suffix: "K", label: "Project Complete" },
-  { id: 3, icon: "ri-briefcase-line text-blue-500", value: 10, suffix: "+", label: "Years of Experience" },
+  {
+    id: 1,
+    icon: "ri-emotion-laugh-line text-purple-500",
+    value: 258,
+    suffix: "+",
+    label: "Happy Clients",
+  },
+  {
+    id: 2,
+    icon: "ri-book-shelf-line text-yellow-500",
+    value: 590,
+    suffix: "K",
+    label: "Project Complete",
+  },
+  {
+    id: 3,
+    icon: "ri-briefcase-line text-blue-500",
+    value: 10,
+    suffix: "+",
+    label: "Years of Experience",
+  },
 ];
 
 const Counter = ({ value, suffix }) => {
@@ -45,9 +63,17 @@ const Counter = ({ value, suffix }) => {
 const StatsSection = () => {
   return (
     <div className="bg-zinc-800 mt-28 text-white py-16">
-      <div className="container mx-auto grid grid-cols-1 sm:grid-cols-3 gap-10 text-center">
-        {stats.map((stat) => (
-          <div key={stat.id} className="flex flex-col items-center">
+      <div className="container mx-auto grid grid-cols-2 md:grid-cols-3 gap-10 text-center">
+        {stats.map((stat, index, arr) => (
+          <div
+            key={stat.id}
+            className={`flex flex-col items-center 
+            ${
+              arr.length - 1 === index
+                ? "justify-self-center col-span-2 md:col-span-1 md:justify-self-auto"
+                : ""
+            }`}
+          >
             <i className={`${stat.icon} text-4xl md:text-5xl`}></i>
             <div className="text-3xl font-bold mt-2">
               <Counter value={stat.value} suffix={stat.suffix} />

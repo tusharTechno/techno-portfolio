@@ -95,14 +95,14 @@ const ProjectMenu = () => {
       <div className="sticky z-30 top-0 w-full mt-20 h-13 flex bg-zinc-800 mb-5">
         <button
           onClick={scrollLeft}
-          className="lg:hidden w-10 cursor-pointer h-full shrink-0 bg-zinc-700 px-2"
+          className="xl:hidden w-10 cursor-pointer h-full shrink-0 bg-zinc-700 px-2"
         >
           <i className="ri-arrow-left-line text-white"></i>
         </button>
 
         <div
           ref={menuRef}
-          className="project-menu overflow-x-scroll whitespace-nowrap z-20 w-full flex items-center md:justify-center px-5 gap-5 md:gap-8 scrollbar-hide"
+          className="project-menu overflow-x-scroll whitespace-nowrap z-20 w-full flex items-center xl:justify-center px-5 gap-5 md:gap-8 scrollbar-hide"
         >
           {technologies.map((tech, index) => (
             <button
@@ -122,7 +122,7 @@ const ProjectMenu = () => {
 
         <button
           onClick={scrollRight}
-          className="lg:hidden w-10 cursor-pointer h-full shrink-0 bg-zinc-700 p-2"
+          className="xl:hidden w-10 cursor-pointer h-full shrink-0 bg-zinc-700 p-2"
         >
           <i className="ri-arrow-right-line text-white"></i>
         </button>
@@ -139,14 +139,14 @@ const ProjectMenu = () => {
               index === 0 ? "translate-y-0 pb-10" : "-translate-y-5 pb-10"
             }`}
           >
-            <h2 className="text-center md:text-left text-3xl font-bold text-white">
+            <h2 className="text-center lg:text-left text-4xl font-bold text-white">
               {tech.workheading}
             </h2>
-            <div className="gap-5 grid md:grid-cols-2 mt-6">
-              {tech.projects.map((project, index) => (
+            <div className="gap-5 grid lg:grid-cols-2 mt-6">
+              {tech.projects.map((project) => (
                 <div key={project.projectname} className="group relative w-full bg-zinc-900 border-[1px] border-zinc-800 rounded-lg overflow-hidden">
                   <MacHeader text={project.projectname} link={project.projecturl}/>
-                  <div className="h-[15rem] md:h-[20rem] grid items-center">
+                  <div className="h-[48vw] md:h-[21rem] 2xl:h-[28rem] grid items-center">
                     <img
                       src={project.projectimage}
                       alt={tech}
