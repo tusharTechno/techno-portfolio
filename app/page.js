@@ -27,7 +27,9 @@ const HomePage = () => {
 
   return (
     <main className="w-full">
+
       <ToastContainer theme="dark" />
+
       <section className="hero bg-zinc-800 w-full py-10 ">
         <div className="flex flex-col lg:flex-row items-center w-[90%] gap-10 mx-auto">
           <div className="w-full lg:w-1/2 relative">
@@ -251,6 +253,7 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+      
     </main>
   );
 };

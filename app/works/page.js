@@ -146,13 +146,13 @@ const ProjectMenu = () => {
               {tech.projects.map((project) => (
                 <div key={project.projectname} className="group relative w-full bg-zinc-900 border-[1px] border-zinc-800 rounded-lg overflow-hidden">
                   <MacHeader text={project.projectname} link={project.projecturl}/>
-                  <div className="h-[48vw] md:h-[21rem] 2xl:h-[28rem] grid items-center">
+                  <div className="h-[48vw] md:h-[20rem] 2xl:h-[28rem] grid items-center">
                     <img
                       src={project.projectimage}
                       alt={tech}
                       className="w-full h-full object-cover"
                     />
-                    <div className="opacity-0 duration-200 flex items-end px-5 py-5 group-hover:opacity-100 absolute left-0 top-0 w-full h-full bg-linear-[var(--card-gradient)] z-[2]">
+                    <div className="opacity-0 duration-250 flex items-end px-5 py-5 group-hover:opacity-100 absolute left-0 top-0 w-full h-full bg-linear-[var(--card-gradient)] z-[2]">
                       <p className="text-sm md:text-base">{project.projectdescription}</p>
                     </div>
                   </div>

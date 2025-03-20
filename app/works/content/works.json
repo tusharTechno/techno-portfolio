@@ -3,58 +3,34 @@
     "workheading": "Core PHP",
     "projects": [
       {
-        "projectname": "GSIS",
-        "projectdescription": "Global Security Innovative Strategies (GSIS) provides security solutions using its expertise in private sector security, homeland security, and international risk management.",
-        "projecturl": "https://www.gsis.us/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
         "projectname": "Comwave",
         "projectdescription": "A leading telecom service provider offering high-speed internet, VoIP phone services, and business communication solutions.",
         "projecturl": "https://www.comwave.net/residential/",
-        "projectimage": "/images/website-image.webp"
+        "projectimage": "/images/websites/rogers.webp"
       },
       {
-        "projectname": "Lacaverne",
-        "projectdescription": "An online marketplace offering a variety of consumer goods, including electronics, fashion, and home essentials.",
-        "projecturl": "https://www.lacaverne.com/",
-        "projectimage": "/images/website-image.webp"
+        "projectname": "Heroku",
+        "projectdescription": "Heroku is a cloud platform that enables developers to deploy, manage, and scale applications easily with support for multiple programming languages.",
+        "projecturl": "https://www.heroku.com/home",
+        "projectimage": "/images/websites/heroku.webp"
       },
       {
         "projectname": "Hugedomains",
         "projectdescription": "A domain marketplace where users can buy and sell premium domain names for businesses and personal use.",
         "projecturl": "https://www.hugedomains.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "JMS-Photography",
-        "projectdescription": "A professional photography service specializing in wedding, portrait, and event photography with a creative touch.",
-        "projecturl": "https://www.jmsphotography.com/",
-        "projectimage": "/images/website-image.webp"
+        "projectimage": "/images/websites/hugedomains.webp"
       },
       {
         "projectname": "FusionInvoice",
         "projectdescription": "FusionInvoice is a self-hosted invoicing and CRM system for freelancers and small businesses, offering customizable invoices, recurring billing, and online payments.",
         "projecturl": "https://www.fusioninvoice.com/",
-        "projectimage": "/images/website-image.webp"
+        "projectimage": "/images/websites/fusioninvoice.webp"
       },
       {
-        "projectname": "Heroku",
-        "projectdescription": "Heroku is a cloud platform that enables developers to deploy, manage, and scale applications easily with support for multiple programming languages.",
-        "projecturl": "https://id.heroku.com/login",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "Rocket-Rubber",
-        "projectdescription": "A specialized e-commerce store selling rubber products such as seals, gaskets, and industrial components.",
-        "projecturl": "https://rocketrubber.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "MyRank",
-        "projectdescription": "An online education platform offering test preparation materials, mock exams, and learning resources for competitive exams.",
-        "projecturl": "https://myrank.co.in/",
-        "projectimage": "/images/website-image.webp"
+        "projectname": "GSIS",
+        "projectdescription": "Global Security Innovative Strategies (GSIS) provides security solutions using its expertise in private sector security, homeland security, and international risk management.",
+        "projecturl": "https://www.gsis.us/",
+        "projectimage": "/images/websites/gsis.webp"
       }
     ]
   },
@@ -83,72 +59,13 @@
         "projectname": "Coliving",
         "projectdescription": "An innovative housing solution platform connecting users with co-living spaces across various cities.",
         "projecturl": "https://coliving.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "Rental-Agency",
-        "projectdescription": "A property rental agency offering comprehensive rental listings, tenant management tools, and landlord services.",
-        "projecturl": "https://rentalagency.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "AutoFinTech-Portal",
-        "projectdescription": "A fintech platform facilitating automotive finance, loan applications, and digital banking solutions for vehicle buyers.",
-        "projecturl": "https://portal.autofintech.co.uk/user/login",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "Infiniguard-Dev",
-        "projectdescription": "A security and data management platform designed for enterprise-level data protection and real-time monitoring.",
-        "projecturl": "https://dev.infiniguard.com/admin/login",
-        "projectimage": "/images/website-image.webp"
+        "projectimage": "/images/websites/coliving.webp"
       },
       {
         "projectname": "WhatApartment",
         "projectdescription": "A subscription-based service that simplifies rental property searches in Barcelona and Madrid with curated listings.",
         "projecturl": "https://whatapartment.technoarray.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "Brighton-Bike-Share",
-        "projectdescription": "A data-driven platform processing live information on the availability of bikes and docking stations within the Brighton and Hove area.",
-        "projecturl": "http://btn-beryl-dev.scb.bike/login",
-        "projectimage": "/images/website-image.webp"
-      }
-    ]
-  },
-  {
-    "workheading": "Flynax",
-    "projects": [
-      {
-        "projectname": "Realtyzz",
-        "projectdescription": "Powered by Flynax, Realtyzz is the ultimate property finder in Dubai. Browse extensive property listings, connect with verified agents, and find your dream home with ease. Designed and developed by Pankaj to deliver a seamless real estate experience.",
-        "projecturl": "https://www.realtyzz.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "Go-Motorlend",
-        "projectdescription": "A digital lending platform providing seamless financing options for vehicle purchases, offering easy online applications and quick approvals.",
-        "projecturl": "https://go.motorlend.co.uk/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "BaseCamper",
-        "projectdescription": "A marketplace for buying, selling, and renting overlanding gear, vehicles, and adventure trailers, connecting outdoor enthusiasts with the right equipment.",
-        "projecturl": "https://basecamper.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "Zeaara",
-        "projectdescription": "An online marketplace offering unique and curated products across various categories, designed to provide a seamless shopping experience.",
-        "projecturl": "https://www.zeaara.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "YormApp",
-        "projectdescription": "YormApp is a digital marketplace connecting users with local businesses, offering services, deals, and promotions in various industries.",
-        "projecturl": "https://yormapp.com/en/",
-        "projectimage": "/images/website-image.webp"
+        "projectimage": "/images/websites/whatsapartment.webp"
       }
     ]
   },
@@ -165,79 +82,37 @@
         "projectname": "Skinology-Aesthetics",
         "projectdescription": "A premier skincare and beauty clinic providing luxury facial treatments and aesthetic services for rejuvenated skin.",
         "projecturl": "https://skinology-aesthetics.myshopify.com/",
-        "projectimage": "/images/website-image.webp"
+        "projectimage": "/images/websites/skinology.webp"
       },
       {
         "projectname": "Intex",
         "projectdescription": "A leading electronics brand offering a wide range of consumer electronics, including LED TVs, smartwatches, and home appliances.",
         "projecturl": "https://www.intex.in/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "The-Face-Haus",
-        "projectdescription": "A modern facial bar providing high-quality skincare services and professional facial treatments in a relaxed environment.",
-        "projecturl": "https://thefacehaus.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "RAD-Roller",
-        "projectdescription": "RAD Roller offers innovative massage and recovery tools designed to improve mobility, reduce muscle tension, and enhance athletic performance.",
-        "projecturl": "https://radroller.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "Själ-Skincare",
-        "projectdescription": "A luxury skincare brand specializing in gemstone-infused anti-aging products designed to brighten, firm, and hydrate the skin.",
-        "projecturl": "https://sjalskincare.com/",
-        "projectimage": "/images/website-image.webp"
+        "projectimage": "/images/websites/intex.webp"
       },
       {
         "projectname": "CLK-Supplies",
         "projectdescription": "An online store providing high-quality locksmith tools, key blanks, and security supplies for commercial and individual use.",
         "projecturl": "https://www.clksupplies.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "ZÓ",
-        "projectdescription": "A luxury glassware brand offering personalized, monogrammed glassware for gifting, corporate events, and special occasions.",
-        "projecturl": "https://zopersonalised.com/",
-        "projectimage": "/images/website-image.webp"
+        "projectimage": "/images/websites/clksupplies.webp"
       },
       {
         "projectname": "Atlas-Bars",
         "projectdescription": "A nutrition-focused brand offering protein bars with clean ingredients, high protein, and low sugar to fuel active lifestyles.",
         "projecturl": "https://atlasbars.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "TruLabs",
-        "projectdescription": "A health and fitness brand offering high-quality energy drinks, hydration mixes, and pre-workout supplements for performance enhancement.",
-        "projecturl": "https://trulabs.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "FlatSpec",
-        "projectdescription": "FlatSpec provides high-precision metrology solutions for industries requiring advanced surface measurement and quality control.",
-        "projecturl": "https://www.flatspec.com/",
-        "projectimage": "/images/website-image.webp"
+        "projectimage": "/images/websites/atlas.webp"
       },
       {
         "projectname": "Ame-&-Lulu",
         "projectdescription": "A fashion brand offering stylish and functional accessories for active lifestyles, including tennis and golf gear, travel bags, and more.",
         "projecturl": "https://www.ameandlulu.com/",
-        "projectimage": "/images/website-image.webp"
+        "projectimage": "/images/websites/amelulu.webp"
       },
       {
         "projectname": "Modholic",
         "projectdescription": "An online furniture store specializing in Mid-Century Modern furniture with stylish reproductions at affordable prices.",
         "projecturl": "https://www.modholic.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "Sunny-Bay",
-        "projectdescription": "A brand offering high-quality microwavable heating pads for pain relief, designed for both heat and cold therapy.",
-        "projecturl": "https://sunny-bay.com/",
-        "projectimage": "/images/website-image.webp"
+        "projectimage": "/images/websites/modholic.webp"
       }
     ]
   },
@@ -255,60 +130,36 @@
         "projectdescription": "A construction technology company specializing in prefabricated building facades to improve energy efficiency and streamline the construction process.",
         "projecturl": "https://www.dextall.com/",
         "projectimage": "/images/websites/dextail.webp"
-      },
-      {
-        "projectname": "NREMG",
-        "projectdescription": "A real estate management group providing professional services to investors, offering guidance and solutions for property investments across the nation.",
-        "projecturl": "https://www.nremg.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "Spaciable",
-        "projectdescription": "A PropTech company that simplifies real estate processes with an online portal providing easy access to essential documents and property management tools.",
-        "projecturl": "https://www.spaciable.io/",
-        "projectimage": "/images/website-image.webp"
-      },
+      },  
       {
         "projectname": "WildJar",
         "projectdescription": "A call tracking and analytics platform that helps businesses drive revenue by optimizing their inbound phone lead conversions.",
         "projecturl": "https://www.wildjar.com/",
-        "projectimage": "/images/website-image.webp"
+        "projectimage": "/images/websites/wildjar.webp"
       },
       {
         "projectname": "BASS-Medical-Group",
         "projectdescription": "A leading healthcare specialist provider in California, offering state-of-the-art medical care through a network of 300+ providers across multiple locations.",
         "projecturl": "https://bass-medical-group.webflow.io/",
-        "projectimage": "/images/website-image.webp"
+        "projectimage": "/images/websites/bass.webp"
       },
       {
         "projectname": "HostGenius",
         "projectdescription": "A property management company based in Vancouver that helps Airbnb hosts maximize their rental income and become Superhosts.",
         "projecturl": "https://hostgenius-063f3c.webflow.io/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "Cardiac-Care",
-        "projectdescription": "A specialized medical practice offering expert cardiology care across multiple locations in Virginia, with a team of experienced doctors.",
-        "projecturl": "https://www.cardiaccarepc.com/",
-        "projectimage": "/images/website-image.webp"
+        "projectimage": "/images/websites/hostgenius.webp"
       },
       {
         "projectname": "3-Point-Elite",
         "projectdescription": "A gynecology and wellness clinic focused on providing personalized care with board-certified specialists in Maryland.",
         "projecturl": "https://www.3pointelite.com/",
-        "projectimage": "/images/website-image.webp"
+        "projectimage": "/images/websites/3pointelite.webp"
       },
       {
         "projectname": "Crop-Photo",
         "projectdescription": "An AI-powered bulk image editing tool that allows users to crop, resize, and retouch images quickly and efficiently.",
         "projecturl": "https://www.crop.photo/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "Alpha-Domains",
-        "projectdescription": "Alpha Domains is a domain registration and management platform offering premium domain names, hosting, and related web services.",
-        "projecturl": "https://www.alphadomains.com/",
-        "projectimage": "/images/website-image.webp"
+        "projectimage": "/images/websites/cropphoto.webp"
       }
     ]
   },
@@ -320,12 +171,6 @@
         "projectdescription": "An online recruitment platform connecting employers with independent recruiters to simplify the hiring process.",
         "projecturl": "https://www.hiring-hub.com/",
         "projectimage": "/images/websites/hiring-hub.webp"
-      },
-      {
-        "projectname": "Empowered-Nurses",
-        "projectdescription": "A support platform for nurses providing legal protection, career guidance, and advocacy against malpractice claims.",
-        "projecturl": "https://empowerednurses.org/",
-        "projectimage": "/images/website-image.webp"
       },
       {
         "projectname": "Rapid-Clean",
@@ -507,12 +352,6 @@
     "workheading": "ProcessWire",
     "projects": [
       {
-        "projectname": "Summit-NYC",
-        "projectdescription": "Summit NYC is a luxury residential skyscraper offering high-end apartments with premium amenities and breathtaking city views.",
-        "projecturl": "https://summitnyc.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
         "projectname": "1289-Lexington",
         "projectdescription": "1289 Lexington is a modern residential and commercial development in New York, providing luxury living spaces with top-tier facilities.",
         "projecturl": "https://1289lexington.com/",
@@ -556,6 +395,17 @@
         "projectdescription": "A premium event design company specializing in high-end decor and luxury event planning for weddings and special occasions.",
         "projecturl": "https://www.ivoryandfine.com/",
         "projectimage": "/images/website-image.webp"
+      }
+    ]
+  },
+  {
+    "workheading": "Flynax",
+    "projects": [
+      {
+        "projectname": "Realtyzz",
+        "projectdescription": "Powered by Flynax, Realtyzz is the ultimate property finder in Dubai. Browse extensive property listings, connect with verified agents, and find your dream home with ease. Designed and developed by Pankaj to deliver a seamless real estate experience.",
+        "projecturl": "https://www.realtyzz.com/",
+        "projectimage": "/images/websites/realtyzz.webp"
       }
     ]
   }
