@@ -12,13 +12,13 @@ const CodeEditor = () => {
     hardWorker: true,
     quickLearner: true,
     problemSolver: true,
-    yearsOfExperience: 10,
+    yearsOfExperience: 6,
     hireable: function () {
       return (
         this.hardWorker &&
         this.quickLearner &&
         this.skills.length >= 2 &&
-        this.yearsOfExperience >= 10
+        this.yearsOfExperience >= 6
       );
     },
   };`;

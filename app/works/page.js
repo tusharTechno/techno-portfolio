@@ -92,7 +92,7 @@ const ProjectMenu = () => {
     <div className="w-full mt-20 scroll-smooth">
       <PageHeading text="Showcasing Our" colorText="Excellence" />
 
-      <div className="sticky z-30 top-0 w-full mt-20 h-13 flex bg-zinc-800 mb-5">
+      <div className="fixed md:sticky z-30 bottom-0 md:top-0 w-full md:mt-20 h-13 flex bg-zinc-800">
         <button
           onClick={scrollLeft}
           className="xl:hidden w-10 cursor-pointer h-full shrink-0 bg-zinc-700 px-2"
@@ -128,7 +128,7 @@ const ProjectMenu = () => {
         </button>
       </div>
 
-      <section className="w-full">
+      <section className="w-full mt-20 md:mt-0">
         {technologies.map((tech, index) => (
           <div
             key={tech.workheading + index}
@@ -145,7 +145,7 @@ const ProjectMenu = () => {
             <div className="gap-5 grid lg:grid-cols-2 mt-6">
               {tech.projects.map((project) => (
                 <div key={project.projectname} className="group relative w-full bg-zinc-900 border-[1px] border-zinc-800 rounded-lg overflow-hidden">
-                  <MacHeader text={project.projectname} stack={project.projectStack} link={project.projecturl}/>
+                  <MacHeader extention={tech.workheading} text={project.projectname} stack={project.projectStack} link={project.projecturl}/>
                   <div className="h-[48vw] md:h-[20rem] 2xl:h-[28rem] grid items-center">
                     <img
                       src={project.projectimage}

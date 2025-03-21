@@ -18,7 +18,7 @@ const StickyCards = ({ data, index }) => {
     `}
       style={{ top: `${index + 2 + "0"}px`, zIndex: `${index + 1}` }}
     >
-      <MacHeader text={data.title} link={data.link} />
+      <MacHeader extention={data.tech[0]} text={data.title} link={data.link} />
       <div className="grid items-center bg-zinc-900 py-5 px-5">
         <div className="flex items-center gap-2 mb-5 text-sm">
           {data.tech?.map((tec, index) => (

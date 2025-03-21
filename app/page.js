@@ -25,6 +25,7 @@ const HomePage = () => {
     formRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
+
   return (
     <main className="w-full">
       <ToastContainer theme="dark" />
@@ -50,7 +51,7 @@ const HomePage = () => {
               <span className="text-gradient"> I’m Pankaj</span>
             </motion.h1>
             <p className="text-sm md:text-base mt-5">
-              Your go-to Full-Stack Developer with over a decade of hands-on
+              Your go-to Full-Stack Developer with 6 years of hands-on
               experience building powerful, innovative, and high-performing web
               applications. My passion lies in turning complex challenges into
               seamless digital experiences, and I thrive on crafting solutions
@@ -70,7 +71,7 @@ const HomePage = () => {
             </span>
           </div>
           <div className="w-full lg:w-1/2 bg-zinc-900 rounded-lg overflow-hidden">
-            <MacHeader text="index" />
+            <MacHeader extention="reactjs" text="index" />
             <div className="h-[28rem] grid items-center">
               <CodeEditor />
             </div>
@@ -139,7 +140,7 @@ const HomePage = () => {
       <section className="w-full mt-15 md:mt-24">
         <div className="flex flex-col-reverse lg:flex-row gap-y-8 items-center w-[90%] mx-auto">
           <div className="w-full lg:w-1/2 bg-zinc-900 rounded-lg border-[1px] border-zinc-200/10 overflow-hidden">
-            <MacHeader text="Contact" />
+            <MacHeader extention="reactjs" text="Contact" />
             <div
               ref={formRef}
               className="grid items-center bg-zinc-900 py-5 px-5 md:px-15"
@@ -175,7 +176,7 @@ const HomePage = () => {
                     name: "subject",
                     length: 10,
                     placeholder: "Subject",
-                    pattern: "^.{10,}$"
+                    pattern: "^.{10,}$",
                   },
                 ].map((field, ind) => (
                   <input
@@ -186,7 +187,6 @@ const HomePage = () => {
                     name={field.name}
                     pattern={field.pattern}
                     className="w-full h-11 outline-none rounded-lg py-1 px-2 bg-zinc-800 border-[1px] border-zinc-700"
-                    required
                   />
                 ))}
 

@@ -88,3 +88,8 @@ body {
   scrollbar-width: none;
 }
 
+@media screen and (max-width: 480px) {
+  .Toastify__toast {
+    @apply w-[95%];
+  }
+}
