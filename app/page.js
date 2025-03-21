@@ -27,7 +27,6 @@ const HomePage = () => {
 
   return (
     <main className="w-full">
-
       <ToastContainer theme="dark" />
 
       <section className="hero bg-zinc-800 w-full py-10 ">
@@ -149,40 +148,55 @@ const HomePage = () => {
                 className="w-full grid gap-3"
                 onSubmit={(e) => handleContactForm(e, setSending, recaptchaRef)}
               >
-                <input
-                  type="text"
-                  minLength={3}
-                  placeholder="Your Name"
-                  name="name"
-                  className="w-full h-11 outline-none rounded-lg py-1 px-2 bg-zinc-800 border-[1px] border-zinc-700"
-                />
-                <input
-                  type="email"
-                  minLength={3}
-                  name="email"
-                  placeholder="Your Email"
-                  className="w-full h-11 outline-none rounded-lg py-1 px-2 bg-zinc-800 border-[1px] border-zinc-700"
-                />
-                <input
-                  type="text"
-                  minLength={3}
-                  name="subject"
-                  placeholder="Subject"
-                  className="w-full h-11 outline-none rounded-lg py-1 px-2 bg-zinc-800 border-[1px] border-zinc-700"
-                />
-                <input
-                  type="tel"
-                  name="phone"
-                  minLength={10}
-                  placeholder="Phone No"
-                  className="w-full h-11 outline-none rounded-lg py-1 px-2 bg-zinc-800 border-[1px] border-zinc-700"
-                />
+                {[
+                  {
+                    type: "text",
+                    name: "name",
+                    length: 3,
+                    placeholder: "Your Name",
+                    pattern: "^[a-zA-Z\\s]{3,}$", // Only letters and spaces, min 3 chars
+                  },
+                  {
+                    type: "email",
+                    name: "email",
+                    length: 3,
+                    placeholder: "Your Email",
+                    pattern: "^[\\w.-]+@[\\w.-]+\\.[a-zA-Z]{2,}$", // Basic email pattern
+                  },
+                  {
+                    type: "tel",
+                    name: "phone",
+                    length: 3,
+                    placeholder: "Phone No",
+                    pattern: "^[0-9]{10}$", // Exactly 10 digits (adjust as needed)
+                  },
+                  {
+                    type: "text",
+                    name: "subject",
+                    length: 10,
+                    placeholder: "Subject",
+                    pattern: "^.{10,}$"
+                  },
+                ].map((field, ind) => (
+                  <input
+                    key={`field${ind}`}
+                    type={field.type}
+                    minLength={field.length}
+                    placeholder={field.placeholder}
+                    name={field.name}
+                    pattern={field.pattern}
+                    className="w-full h-11 outline-none rounded-lg py-1 px-2 bg-zinc-800 border-[1px] border-zinc-700"
+                    required
+                  />
+                ))}
+
                 <textarea
-                  minLength={3}
+                  minLength={20}
                   name="message"
                   placeholder="Your Message"
                   className="w-full min-h-20 max-h-30 outline-none rounded-lg py-2 px-2 bg-zinc-800 border-[1px] border-zinc-700"
                 ></textarea>
+
                 <div className="flex justify-center">
                   <ReCAPTCHA
                     ref={recaptchaRef}
@@ -253,7 +267,6 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-      
     </main>
   );
 };

@@ -145,7 +145,7 @@ const ProjectMenu = () => {
             <div className="gap-5 grid lg:grid-cols-2 mt-6">
               {tech.projects.map((project) => (
                 <div key={project.projectname} className="group relative w-full bg-zinc-900 border-[1px] border-zinc-800 rounded-lg overflow-hidden">
-                  <MacHeader text={project.projectname} link={project.projecturl}/>
+                  <MacHeader text={project.projectname} stack={project.projectStack} link={project.projecturl}/>
                   <div className="h-[48vw] md:h-[20rem] 2xl:h-[28rem] grid items-center">
                     <img
                       src={project.projectimage}

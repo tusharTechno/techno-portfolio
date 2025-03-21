@@ -182,180 +182,61 @@
         "projectname": "Colorado-Estate-Planning",
         "projectdescription": "A legal firm specializing in estate and business planning, providing expert guidance for asset protection.",
         "projecturl": "https://www.coloradoestateplanning.com/",
-        "projectimage": "/images/website-image.webp"
+        "projectimage": "/images/websites/colorado.webp"
       },
       {
         "projectname": "Shoulder-Physiotherapy",
         "projectdescription": "A specialized physiotherapy clinic focused on shoulder rehabilitation and sports injury treatments.",
         "projecturl": "https://shoulderphysio.co.nz/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "Injury-Lawyer-Miami",
-        "projectdescription": "A legal consultancy providing expert advice and representation for personal injury claims in Miami.",
-        "projecturl": "https://injury-lawyer-miami.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "Smith-and-Weer",
-        "projectdescription": "A law firm specializing in family law, estate planning, and personal injury cases in Illinois.",
-        "projecturl": "https://smithandweer.com/",
-        "projectimage": "/images/website-image.webp"
+        "projectimage": "/images/websites/asc.webp"
       },
       {
         "projectname": "House-of-Virtruve",
         "projectdescription": "A luxury interior design and home decor brand offering bespoke furniture and architectural solutions.",
         "projecturl": "https://www.houseofvirtruve.com/",
-        "projectimage": "/images/website-image.webp"
+        "projectimage": "/images/websites/house.webp"
       },
       {
         "projectname": "The-Furniture-Labels",
         "projectdescription": "A premium furniture retailer in Dubai offering high-quality office and home furniture solutions.",
         "projecturl": "https://thefurniturelabels.com/",
-        "projectimage": "/images/website-image.webp"
+        "projectimage": "/images/websites/furniture.webp"
       },
       {
         "projectname": "Pawflex",
         "projectdescription": "A pet care brand providing organic and herbal treatments for common pet skin issues.",
         "projecturl": "https://pawflex.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "P&H Casters",
-        "projectdescription": "A leading manufacturer and supplier of industrial casters and wheels for various applications.",
-        "projecturl": "https://phcasters.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "Collectors-Watches",
-        "projectdescription": "An online marketplace for luxury watches, including Rolex, Patek Philippe, and Omega.",
-        "projecturl": "https://collectorswatches.com/",
-        "projectimage": "/images/website-image.webp"
+        "projectimage": "/images/websites/pawflex.webp"
       },
       {
         "projectname": "Design-Your-Beef",
         "projectdescription": "An online service offering high-quality customized steak and beef cuts for home delivery.",
         "projecturl": "https://designyourbeef.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "Franks-and-Koenig",
-        "projectdescription": "A legal firm helping clients secure compensation for workplace injuries and employment disputes.",
-        "projecturl": "https://franksandkoenig.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "Joshua-Designs",
-        "projectdescription": "A boutique building design and construction firm in South Australia, specializing in customized architectural solutions.",
-        "projecturl": "https://joshuadesigns.com.au/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "St.-Peters-Woodbridge",
-        "projectdescription": "A Catholic parish community in Ontario offering religious services and community outreach programs.",
-        "projecturl": "https://stpeterswoodbridge.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "Precious-Blood",
-        "projectdescription": "A faith-based organization providing spiritual guidance and religious services in Ontario.",
-        "projecturl": "https://www.preciousblood.ca/",
-        "projectimage": "/images/website-image.webp"
+        "projectimage": "/images/websites/designerbeef.webp"
       },
       {
         "projectname": "Lin-Andrews",
         "projectdescription": "A real estate firm in South Australia offering services in residential and commercial property sales and management.",
         "projecturl": "https://www.linandrews.com.au/",
-        "projectimage": "/images/website-image.webp"
+        "projectimage": "/images/websites/linandrews.webp"
       },
       {
         "projectname": "RLC-Global-Forum",
         "projectdescription": "An exclusive platform for business leaders to discuss global trends and industry insights.",
         "projecturl": "https://rlcglobalforum.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "Blink-Comms",
-        "projectdescription": "A digital marketing and technology company specializing in online brand engagement and customer experience solutions.",
-        "projecturl": "https://www.blinkcomms.io/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "A-Med-Spa",
-        "projectdescription": "A Med Spa offers advanced aesthetic treatments, skincare solutions, and wellness services to enhance beauty and confidence.",
-        "projecturl": "https://www.amedspa.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "Black-&-Kletz-Allergy",
-        "projectdescription": "A specialized medical practice providing allergy, asthma, and immunology treatments to patients in the Washington, D.C. area.",
-        "projecturl": "http://www.blackandkletzallergy.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "My-Lawyers-LLP",
-        "projectdescription": "A legal firm specializing in estate planning, business law, and real estate transactions, offering expert legal services.",
-        "projecturl": "http://mylawyersllp.com/",
-        "projectimage": "/images/website-image.webp"
+        "projectimage": "/images/websites/rlc.webp"
       },
       {
         "projectname": "Bruno-Nalu",
         "projectdescription": "A high-end law firm offering legal representation in criminal defense, DUI cases, and civil litigation.",
         "projecturl": "https://www.brunonalu.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "Greenberg-Lawyers",
-        "projectdescription": "A law firm specializing in personal injury, workers' compensation, and medical malpractice claims.",
-        "projecturl": "http://www.greenberglawyers.com/",
-        "projectimage": "/images/website-image.webp"
+        "projectimage": "/images/websites/brunonalu.webp"
       },
       {
         "projectname": "ManageWP",
         "projectdescription": "ManageWP provides an all-in-one WordPress management platform for site updates, security, and performance optimization.",
         "projecturl": "https://managewp.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "My-Consulting-Offer",
-        "projectdescription": "A consulting career coaching platform helping job seekers land roles at top consulting firms.",
-        "projecturl": "https://myconsultingoffer.org/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "SoCal-Surf-SUP",
-        "projectdescription": "A premier surfing and stand-up paddleboarding school offering lessons and equipment rentals in Southern California.",
-        "projecturl": "https://socalsurfsup.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "Sterling-Investment-Management",
-        "projectdescription": "An investment management firm providing financial advisory services, portfolio management, and wealth planning.",
-        "projecturl": "https://sterlinginvestmentmanagement.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "Urart-Studio",
-        "projectdescription": "Urart Studio specializes in unique, handcrafted jewelry and art pieces inspired by ancient civilizations.",
-        "projecturl": "https://urartstudio.com/",
-        "projectimage": "/images/website-image.webp"
-      },
-      {
-        "projectname": "Loss-and-Grief",
-        "projectdescription": "A counseling and support service helping individuals navigate loss, grief, and emotional well-being.",
-        "projecturl": "http://lossandgrief.com.au/",
-        "projectimage": "/images/website-image.webp"
-      }
-    ]
-  },
-  {
-    "workheading": "ProcessWire",
-    "projects": [
-      {
-        "projectname": "1289-Lexington",
-        "projectdescription": "1289 Lexington is a modern residential and commercial development in New York, providing luxury living spaces with top-tier facilities.",
-        "projecturl": "https://1289lexington.com/",
-        "projectimage": "/images/website-image.webp"
+        "projectimage": "/images/websites/managewp.webp"
       }
     ]
   },
@@ -388,24 +269,21 @@
     ]
   },
   {
-    "workheading": "Squarespace",
+    "workheading": "Others",
     "projects": [
       {
-        "projectname": "Ivory-&-Fine",
-        "projectdescription": "A premium event design company specializing in high-end decor and luxury event planning for weddings and special occasions.",
-        "projecturl": "https://www.ivoryandfine.com/",
-        "projectimage": "/images/website-image.webp"
-      }
-    ]
-  },
-  {
-    "workheading": "Flynax",
-    "projects": [
+        "projectname": "1289-Lexington",
+        "projectdescription": "1289 Lexington is a modern residential and commercial development in New York, providing luxury living spaces with top-tier facilities.",
+        "projecturl": "https://1289lexington.com/",
+        "projectimage": "/images/websites/lexington.webp",
+        "projectStack":"ProcessWire"
+      },
       {
         "projectname": "Realtyzz",
         "projectdescription": "Powered by Flynax, Realtyzz is the ultimate property finder in Dubai. Browse extensive property listings, connect with verified agents, and find your dream home with ease. Designed and developed by Pankaj to deliver a seamless real estate experience.",
         "projecturl": "https://www.realtyzz.com/",
-        "projectimage": "/images/websites/realtyzz.webp"
+        "projectimage": "/images/websites/realtyzz.webp",
+        "projectStack":"Flynax"
       }
     ]
   }
