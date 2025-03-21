@@ -155,21 +155,21 @@ const HomePage = () => {
                     name: "name",
                     length: 3,
                     placeholder: "Your Name",
-                    pattern: "^[a-zA-Z\\s]{3,}$", // Only letters and spaces, min 3 chars
+                    pattern: "^[a-zA-Z\\s]{3,}$",
                   },
                   {
                     type: "email",
                     name: "email",
                     length: 3,
                     placeholder: "Your Email",
-                    pattern: "^[\\w.-]+@[\\w.-]+\\.[a-zA-Z]{2,}$", // Basic email pattern
+                    pattern: "^[\\w.-]+@[\\w.-]+\\.[a-zA-Z]{2,}$",
                   },
                   {
                     type: "tel",
                     name: "phone",
                     length: 3,
                     placeholder: "Phone No",
-                    pattern: "^[0-9]{10}$", // Exactly 10 digits (adjust as needed)
+                    pattern: "^[0-9]{10}$",
                   },
                   {
                     type: "text",
